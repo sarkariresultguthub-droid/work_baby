@@ -1,0 +1,54 @@
+name: SarkariResult Auto Scraper
+
+# Har ghante ke start pe chalega (1:00, 2:00, 3:00... - GitHub ka
+# scheduled cron "best effort" hota hai, kabhi 1-10 min late bhi ho
+# sakta hai, lekin roughly hourly rahega). Manual "Run workflow"
+# button se bhi turant chala sakte ho (workflow_dispatch).
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+# Repo mein wapas commit (data/ aur snapshots/) karne ke liye permission
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo checkout karo
+        uses: actions/checkout@v4
+
+      - name: Python setup karo
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Dependencies install karo
+        run: pip install -r requirements.txt
+
+      - name: Scraper + AI format + CareerFlora publish chalao (ek baar check)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GROQ_KEY_1: ${{ secrets.GROQ_KEY_1 }}
+          GROQ_KEY_2: ${{ secrets.GROQ_KEY_2 }}
+          GROQ_KEY_3: ${{ secrets.GROQ_KEY_3 }}
+          CAREERFLORA_API_URL: ${{ secrets.CAREERFLORA_API_URL }}
+          CAREERFLORA_API_KEY: ${{ secrets.CAREERFLORA_API_KEY }}
+        run: python run_once.py
+
+      - name: Generate monitor status
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python monitor.py
+
+      - name: Naya data + seen-posts record commit karo
+        run: |
+          git config user.name "sarkariresult-scraper-bot"
+          git config user.email "actions@github.com"
+          git add data/ snapshots/ logs/ monitor/ 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Auto scrape: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

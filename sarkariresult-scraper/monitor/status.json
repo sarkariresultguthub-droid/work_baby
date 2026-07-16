@@ -1,0 +1,24 @@
+{
+  "repo": "ShivKumar114/sarkariresult-scraper",
+  "generated_at_utc": "2026-07-06T14:15:13.469092+00:00",
+  "date": "2026-07-06",
+  "runs": {
+    "total_runs_today": 4,
+    "success": 3,
+    "failed": 0,
+    "other": 1,
+    "run_times_utc": [
+      "2026-07-06T01:15:04Z",
+      "2026-07-06T05:54:38Z",
+      "2026-07-06T10:16:24Z",
+      "2026-07-06T14:06:01Z"
+    ],
+    "last_run_utc": "2026-07-06T14:06:01Z"
+  },
+  "scraped": {
+    "total_files": 1,
+    "by_category": {
+      "Latest Job": 1
+    }
+  }
+}

@@ -204,11 +204,17 @@ def fetch_full_post(link: str, timeout: int = 15) -> dict:
     content nikalta hai: heading, saare paragraphs/list-items, aur
     agar koi table hai (jaise result/dates table) toh wo bhi.
     """
+    # NOTE: "important_links" key yahin se initialize ki gayi hai
+    # (pehle missing thi) — taaki agar function neeche kisi bhi
+    # early-return path (no link / PDF / HTTP error / exception) se
+    # nikal jaaye, tab bhi caller (scraper.py) ko ye key mile aur
+    # KeyError: 'important_links' na aaye.
     result = {
         "full_title": None,
         "full_text": None,
         "tables": [],
         "important_dates": None,
+        "important_links": [],
         "fetch_error": None,
     }
 
@@ -395,6 +401,7 @@ def extract_listing(
             item["full_text"] = full_data["full_text"]
             item["tables"] = full_data["tables"]
             item["important_dates"] = full_data["important_dates"]
+            item["important_links"] = full_data["important_links"]
             item["fetch_error"] = full_data["fetch_error"]
             time.sleep(1)  # detail page server pe load kam rakhne ke liye
 

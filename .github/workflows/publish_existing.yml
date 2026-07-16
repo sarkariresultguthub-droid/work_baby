@@ -1,0 +1,45 @@
+name: Publish Existing Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      date_folder:
+        description: 'Date folder to publish (e.g. 2026-07-16)'
+        required: true
+        default: '2026-07-16'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Publish existing scraped data
+        env:
+          CAREERFLORA_API_URL: ${{ secrets.CAREERFLORA_API_URL }}
+          CAREERFLORA_API_KEY: ${{ secrets.CAREERFLORA_API_KEY }}
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
+          GROQ_KEY_1: ${{ secrets.GROQ_KEY_1 }}
+          GROQ_KEY_2: ${{ secrets.GROQ_KEY_2 }}
+          GROQ_KEY_3: ${{ secrets.GROQ_KEY_3 }}
+          GROQ_KEY_4: ${{ secrets.GROQ_KEY_4 }}
+          GROQ_KEY_5: ${{ secrets.GROQ_KEY_5 }}
+          GROQ_KEY_6: ${{ secrets.GROQ_KEY_6 }}
+          GROQ_KEY_7: ${{ secrets.GROQ_KEY_7 }}
+          GROQ_KEY_8: ${{ secrets.GROQ_KEY_8 }}
+          GROQ_KEY_9: ${{ secrets.GROQ_KEY_9 }}
+          GROQ_KEY_10: ${{ secrets.GROQ_KEY_10 }}
+          GROQ_KEY_11: ${{ secrets.GROQ_KEY_11 }}
+          GROQ_KEY_12: ${{ secrets.GROQ_KEY_12 }}
+          GROQ_KEY_13: ${{ secrets.GROQ_KEY_13 }}
+          GROQ_KEY_14: ${{ secrets.GROQ_KEY_14 }}
+        run: python publish_existing.py "${{ github.event.inputs.date_folder }}"

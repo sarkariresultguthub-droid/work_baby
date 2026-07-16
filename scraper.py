@@ -18,7 +18,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from config import SITES, DATA_DIR, SNAPSHOTS_DIR, LOGS_DIR
-from universal_extractor import extract_listing, fetch_full_post
+from universal_extractor import extract_listing, fetch_full_post, proxied_get, SCRAPERAPI_KEY
 
 # ---------- Logging setup ----------
 os.makedirs(DATA_DIR, exist_ok=True)
@@ -87,18 +87,20 @@ def fetch_page(url: str, retries: int = 4) -> requests.Response | None:
         session = requests.Session()
         try:
             # Pehle site ka homepage visit karo — cookies set ho jaaye
-            # aur site ko lagey real browser hai
-            try:
-                session.get(home_url, headers=_get_headers(home_url), timeout=10, allow_redirects=True)
-                time.sleep(random.uniform(1.5, 3.0))
-            except Exception:
-                pass  # Homepage fail ho toh bhi actual URL try karo
+            # aur site ko lagey real browser hai. (Proxy mode mein ye
+            # skip ho jaata hai — ScraperAPI khud isko handle karta hai.)
+            if not SCRAPERAPI_KEY:
+                try:
+                    session.get(home_url, headers=_get_headers(home_url), timeout=10, allow_redirects=True)
+                    time.sleep(random.uniform(1.5, 3.0))
+                except Exception:
+                    pass  # Homepage fail ho toh bhi actual URL try karo
 
             headers = _get_headers(url)
             # Same-site request lagey isliye Referer = homepage
             headers["Referer"] = home_url
 
-            resp = session.get(url, headers=headers, timeout=25, allow_redirects=True)
+            resp = proxied_get(url, headers=headers, timeout=25, session=session)
             if resp.status_code == 200:
                 return resp
             log.warning(f"Attempt {attempt}: {url} returned {resp.status_code}")

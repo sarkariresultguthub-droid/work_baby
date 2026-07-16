@@ -33,9 +33,21 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
           GROQ_KEY_1: ${{ secrets.GROQ_KEY_1 }}
           GROQ_KEY_2: ${{ secrets.GROQ_KEY_2 }}
           GROQ_KEY_3: ${{ secrets.GROQ_KEY_3 }}
+          GROQ_KEY_4: ${{ secrets.GROQ_KEY_4 }}
+          GROQ_KEY_5: ${{ secrets.GROQ_KEY_5 }}
+          GROQ_KEY_6: ${{ secrets.GROQ_KEY_6 }}
+          GROQ_KEY_7: ${{ secrets.GROQ_KEY_7 }}
+          GROQ_KEY_8: ${{ secrets.GROQ_KEY_8 }}
+          GROQ_KEY_9: ${{ secrets.GROQ_KEY_9 }}
+          GROQ_KEY_10: ${{ secrets.GROQ_KEY_10 }}
+          GROQ_KEY_11: ${{ secrets.GROQ_KEY_11 }}
+          GROQ_KEY_12: ${{ secrets.GROQ_KEY_12 }}
+          GROQ_KEY_13: ${{ secrets.GROQ_KEY_13 }}
+          GROQ_KEY_14: ${{ secrets.GROQ_KEY_14 }}
           CAREERFLORA_API_URL: ${{ secrets.CAREERFLORA_API_URL }}
           CAREERFLORA_API_KEY: ${{ secrets.CAREERFLORA_API_KEY }}
         run: python run_once.py

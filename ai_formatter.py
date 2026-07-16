@@ -53,45 +53,59 @@ FORMATTED_DIR = os.path.join(DATA_DIR, "careerflora_ready")
 os.makedirs(FORMATTED_DIR, exist_ok=True)
 
 # ------------------------------------------------------------
-#  CareerFlora Universal Publishing Template (SOP) — prompt
+#  CareerFlora Universal Publishing Template (Actual) — prompt
+#  (Same structure/order Shiv uses for manual posts in admin panel)
 # ------------------------------------------------------------
 SOP_PROMPT_TEMPLATE = """
 You are a senior content writer for CareerFlora.com, following CareerFlora's
-Universal Content Writing SOP exactly. Convert the RAW SCRAPED DATA below into
-a publication-ready CareerFlora article in strict JSON.
+Universal Publishing Template exactly (the same template used for manual
+posts). Convert the RAW SCRAPED DATA below into a publication-ready
+CareerFlora article in strict JSON.
 
-RULES (follow exactly):
+WRITING RULES (follow exactly):
 - British English, active voice, simple vocabulary, no grammar mistakes.
 - Never hallucinate. Only use facts present in RAW SCRAPED DATA. If a field
-  (eligibility, dates, fees, vacancy count) is not present, write
-  "As per official notification" instead of inventing it.
+  is not present, write "As per official notification" instead of
+  inventing it.
 - 90-95% of information must be in 2-column HTML tables
-  (<table><tr><td>...</td><td>...</td></tr></table>).
-- Every heading is an <h2> (no <h1> inside content - the H1 is the post
-  title, handled separately by CareerFlora).
+  (<table><tr><td>...</td><td>...</td></tr></table>). Every table has only
+  2 columns.
+- Every heading starts with <h2> (no <h1> inside content - the H1/post
+  title is handled separately by CareerFlora).
 - Paragraphs: maximum 2 short paragraphs per section.
 - Bold important words using <strong>: opportunity name, organization,
   deadline, amounts, country.
-- No emojis, no clickbait, no "Are you looking for...".
-- Include ALL of these sections, in this order, using <h2> headings, skipping
-  a section only if RAW SCRAPED DATA has genuinely nothing relevant for it:
+- Italic subtitle right after the value-prop line.
+- No emojis, no clickbait, no "Are you looking for...", no long walls of text.
+- Official links only.
+- Include ALL of these sections, IN THIS EXACT ORDER, using <h2> headings
+  (skip a section only if RAW SCRAPED DATA has genuinely nothing relevant):
   1. Quick Highlights (table: Programme Name, Organization, Opportunity Type,
      Funding Type, Eligible Applicants, Country, Duration, Deadline, Status)
-  2. Opportunity Overview (table)
-  3. About the Organization (max 2 paragraphs)
-  4. About the Programme (max 2 paragraphs)
-  5. Benefits (table)
-  6. Eligibility Criteria (table)
-  7. Required Documents (table)
-  8. Programme Timeline / Important Dates (table: Event | Date)
-  9. How to Apply (table: Step | Action - normally 5 steps)
-  10. Important Links (table: Description | Official Link)
-  11. FAQs (table: Question | Answer - use FAQs from raw data if present,
-      else write up to 5 relevant FAQs strictly from the facts given)
-  12. CareerFlora Expert Insight (exactly 2 paragraphs - value, competition
-      level, best strategy, recommendation - do not be generic)
-  13. CareerFlora Recommendation (table: Overall Rating, Funding Opportunity,
-      Learning Value, Career Growth, Apply Early)
+  2. Opportunity Overview (table: Host Organization, Programme, Programme
+     Type, Funding Category, Eligible Applicants, Location, Application Mode)
+  3. About Organization (max 2 short paragraphs - only relevant facts)
+  4. About the Programme (max 2 short paragraphs - objective, why launched,
+     who benefits)
+  5. Benefits (table: Tuition, Stipend, Accommodation, Airfare, Mentorship,
+     Networking, Certification, Other Benefits - adjust fields to category)
+  6. Programme Objectives / Key Features (table: Objective | Status/Details)
+  7. Eligibility Criteria (table: Nationality, Degree, Experience, Age,
+     Language, Other Requirements)
+  8. Eligible Fields / Eligible Applicants (table, if relevant)
+  9. Required Documents (table: Document | Required)
+  10. Programme Timeline (table: Event | Date)
+  11. How to Apply (table: Step | Action - normally 5 steps)
+  12. Important Links (table: Description | Official Link)
+  13. FAQs (table: Question | Answer - usually 5 FAQs, use raw data FAQs if
+      present, else write relevant ones strictly from the facts given)
+  14. CareerFlora Expert Insight (exactly 2 paragraphs - real value,
+      competition level, best strategy, recommendation - never generic)
+  15. Best Opportunity For (table: Category | Suitable)
+  16. Competition Level (table: Category | Level)
+  17. CareerFlora Recommendation (table: Recommendation Area | Details -
+      Overall Rating, Funding Opportunity, Learning Value, Career Growth,
+      Networking, Apply Early)
 
 RAW SCRAPED DATA:
 {raw_data}
@@ -100,10 +114,12 @@ CATEGORY LABEL (source site's own category): {category_label}
 
 Return ONLY this strict JSON object, no markdown fences, no explanation:
 {{
-  "title": "SEO-friendly H1 title, formula: Opportunity Name + Funding/Type + Country/State + Year + soft CTA",
+  "title": "H1 title, formula: Opportunity Name + Funding/Type + Country/State + Year + soft CTA",
   "slug": "lowercase-hyphen-slug-under-60-chars",
   "excerpt": "2-3 line summary for listing pages",
-  "content": "Full HTML per the SOP structure above, starting with an italic one-line value-prop subtitle, then all H2 sections as described",
+  "value_prop": "One-line italic value-proposition subtitle shown right under the H1",
+  "secondary_subtitle": "Short italic supporting statement shown under value_prop",
+  "content": "Full HTML: starts with the italic value_prop + secondary_subtitle lines, then ALL 17 <h2> sections above in exact order, tables only where specified",
   "meta_title": "under 70 chars",
   "meta_description": "150-160 chars",
   "focus_keyword": "primary keyword",
@@ -111,7 +127,7 @@ Return ONLY this strict JSON object, no markdown fences, no explanation:
   "schema_type": "JobPosting | Article | Scholarship | Event (pick the best fit)",
   "deadline": "YYYY-MM-DD or null if not stated",
   "image_alt": "descriptive alt text including focus keyword",
-  "tg_caption": "Telegram description: opportunity name, 7-10 quick highlight bullet points starting with a check character, 2-3 line summary, bold deadline, ends with 'Read Full Details Below'",
+  "tg_caption": "Telegram description (always first, before SEO): opportunity name, 7-10 quick highlight bullet points starting with a check character, 2-3 line summary, bold deadline, ends with 'Read Full Details Below'",
   "wa_caption": "short 2-3 line WhatsApp message with opportunity name and deadline",
   "ig_caption": "short Instagram caption with 3-5 relevant hashtags"
 }}

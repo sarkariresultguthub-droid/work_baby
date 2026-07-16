@@ -10,6 +10,7 @@
 # hain aur usi ko "items" maan lete hain.
 # ============================================================
 
+import os
 import re
 import time
 import logging
@@ -21,6 +22,26 @@ import requests
 from bs4 import BeautifulSoup, Tag
 
 log = logging.getLogger(__name__)
+
+# ------------------------------------------------------------
+#  ScraperAPI proxy (optional) — agar SCRAPERAPI_KEY env var set
+#  hai (GitHub Actions secret se), to har request isi proxy ke
+#  through jaati hai. ScraperAPI apna rotating IP pool use karta
+#  hai, isliye GitHub Actions ke known datacenter IP block ka
+#  issue bypass ho jaata hai. Free tier: ~1000 requests/month.
+#  Key nahi hai to seedha normal request hota hai (jaisa pehle).
+# ------------------------------------------------------------
+SCRAPERAPI_KEY = os.environ.get("SCRAPERAPI_KEY", "")
+SCRAPERAPI_URL = "http://api.scraperapi.com"
+
+
+def proxied_get(url: str, headers: dict | None = None, timeout: int = 25, session=None):
+    """ScraperAPI ke through (agar key hai) ya seedha (agar nahi) GET karta hai."""
+    if SCRAPERAPI_KEY:
+        params = {"api_key": SCRAPERAPI_KEY, "url": url}
+        return requests.get(SCRAPERAPI_URL, params=params, timeout=max(timeout, 70))
+    getter = session.get if session is not None else requests.get
+    return getter(url, headers=headers, timeout=timeout, allow_redirects=True)
 
 # Post detail page fetch ke liye headers (scraper.py wale jaisa hi)
 DETAIL_HEADERS = {
@@ -200,7 +221,7 @@ def fetch_full_post(link: str, timeout: int = 15) -> dict:
         return result
 
     try:
-        resp = requests.get(link, headers=DETAIL_HEADERS, timeout=timeout)
+        resp = proxied_get(link, headers=DETAIL_HEADERS, timeout=timeout)
         if resp.status_code != 200:
             result["fetch_error"] = f"HTTP {resp.status_code}"
             return result

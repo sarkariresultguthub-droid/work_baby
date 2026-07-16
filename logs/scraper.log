@@ -6245,3 +6245,39 @@
 2026-07-16 07:14:52,031 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-16 07:14:52,031 [INFO] ============================================================
 
+2026-07-16 07:17:17,816 [INFO] 
+============================================================
+2026-07-16 07:17:17,817 [INFO] 🔍 [run_once] Check started at 2026-07-16T07:17:17.817000Z
+2026-07-16 07:17:17,817 [INFO] ============================================================
+2026-07-16 07:17:17,817 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-16 07:17:21,596 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-16 07:17:21,597 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-16 07:17:21,597 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-16 07:17:27,047 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-16 07:17:27,049 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-16 07:17:27,049 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-16 07:17:31,803 [INFO] [SarkariResult] [Results] ✅ 10 NAYA post mila! Full data fetch kar raha hun...
+2026-07-16 07:17:45,010 [ERROR] ❌ [SarkariResult] [Results] Error: 'important_links'
+2026-07-16 07:17:45,358 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-16 07:17:45,361 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-16 07:17:49,954 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-16 07:17:49,955 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-16 07:17:49,955 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-16 07:17:53,186 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-16 07:17:53,186 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-16 07:17:53,186 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-16 07:17:55,197 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-16 07:17:55,198 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-16 07:17:55,198 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-16 07:17:56,157 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-16 07:17:56,158 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-16 07:17:56,158 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-16 07:17:58,208 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-16 07:17:58,208 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-16 07:17:58,208 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-16 07:17:59,386 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-16 07:17:59,386 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-16 07:17:59,386 [INFO] ============================================================
+2026-07-16 07:17:59,386 [INFO] ✅ [run_once] Check complete. any_new_post=False
+2026-07-16 07:17:59,386 [INFO] ============================================================
+

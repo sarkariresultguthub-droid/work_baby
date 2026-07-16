@@ -8,11 +8,16 @@
 #  GROQ_KEY_2, GROQ_KEY_3 ... (jitni bhi ho). Ek key fail/rate-limit
 #  ho to agli try hoti hai. Sab fail ho jayein to bina AI ke bhi
 #  post ban jaata hai (template_format) — pipeline kabhi rukta nahi.
+#
+#  NOTE: publish_draft() calls ke beech 4-second delay hai (time.sleep)
+#  taaki Hostinger ka WAF/security layer rapid-fire POST requests ko
+#  bot-attack na samjhe (isse pehle 401/405 errors aa rahe the).
 # ============================================================
 
 import json
 import os
 import re
+import time
 import logging
 
 import requests
@@ -336,30 +341,47 @@ def format_item_for_careerflora(item: dict, category_label: str) -> dict | None:
     return formatted
 
 
-def publish_draft(formatted: dict) -> bool:
-    """CareerFlora ke save_scraped_post.php par POST karo (status=draft)."""
+def publish_draft(formatted: dict, retries: int = 2) -> bool:
+    """CareerFlora ke save_scraped_post.php par POST karo (status=draft).
+    Hosting WAF/rate-limit ki wajah se kabhi-kabhi 401/405 aata hai —
+    isliye ek transient failure par thoda ruk ke ek retry bhi karta hai."""
     if not CAREERFLORA_API_KEY:
         log.error("CAREERFLORA_API_KEY set nahi hai (env var) - publish skip.")
         return False
-    try:
-        resp = requests.post(
-            CAREERFLORA_API_URL,
-            json=formatted,
-            headers={
-                "Content-Type": "application/json",
-                "X-API-Key": CAREERFLORA_API_KEY,
-            },
-            timeout=30,
-        )
-        data = resp.json() if resp.headers.get("content-type", "").startswith("application/json") else {}
-        if resp.status_code == 200 and data.get("success"):
-            log.info(f"✅ Draft saved: {formatted.get('title')} (post_id={data.get('post_id')})")
-            return True
-        log.error(f"❌ Publish failed [{resp.status_code}]: {resp.text[:300]}")
-        return False
-    except Exception as e:
-        log.error(f"Publish error: {e}")
-        return False
+
+    for attempt in range(1, retries + 2):  # total attempts = retries + 1
+        try:
+            resp = requests.post(
+                CAREERFLORA_API_URL,
+                json=formatted,
+                headers={
+                    "Content-Type": "application/json",
+                    "X-API-Key": CAREERFLORA_API_KEY,
+                },
+                timeout=30,
+            )
+            data = resp.json() if resp.headers.get("content-type", "").startswith("application/json") else {}
+            if resp.status_code == 200 and data.get("success"):
+                log.info(f"✅ Draft saved: {formatted.get('title')} (post_id={data.get('post_id')})")
+                return True
+
+            log.error(f"❌ Publish failed [{resp.status_code}]: {resp.text[:300]}")
+
+            # 401/405 hosting WAF ke transient issues ho sakte hain — retry karo
+            if resp.status_code in (401, 405) and attempt <= retries:
+                log.warning(f"Retry {attempt}/{retries} — 6 sec ruk raha hun (WAF cool-down)...")
+                time.sleep(6)
+                continue
+
+            return False
+        except Exception as e:
+            log.error(f"Publish error: {e}")
+            if attempt <= retries:
+                time.sleep(6)
+                continue
+            return False
+
+    return False
 
 
 def _load_items_from_path(filepath: str) -> list[dict]:
@@ -410,6 +432,9 @@ def format_and_publish_folder(folder_path: str, category_label: str) -> dict:
             summary["published"] += 1
         else:
             summary["failed"].append(title)
+
+        # WAF/rate-limit se bachne ke liye har publish ke beech gap
+        time.sleep(4)
 
     log.info(
         f"📊 Format+Publish summary: {summary['formatted']}/{summary['total']} formatted, "

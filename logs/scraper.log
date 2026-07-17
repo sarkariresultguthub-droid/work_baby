@@ -7064,3 +7064,48 @@
 2026-07-17 15:04:18,835 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-17 15:04:18,835 [INFO] ============================================================
 
+2026-07-17 19:51:23,106 [INFO] 
+============================================================
+2026-07-17 19:51:23,106 [INFO] 🔍 [run_once] Check started at 2026-07-17T19:51:23.106940Z
+2026-07-17 19:51:23,106 [INFO] ============================================================
+2026-07-17 19:51:23,107 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-17 19:51:27,375 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-17 19:51:27,376 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-17 19:51:27,376 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-17 19:51:35,091 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-17 19:51:35,092 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-17 19:51:35,092 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-17 19:51:42,208 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-17 19:51:42,209 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-17 19:51:42,209 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-17 19:51:48,427 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-17 19:51:48,427 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-17 19:51:48,427 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-17 19:51:49,848 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-17 19:51:49,848 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-17 19:51:49,848 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-17 19:51:52,004 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-17 19:51:52,004 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-17 19:51:52,004 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-17 19:51:53,809 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-17 19:51:53,809 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-17 19:51:53,809 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-17 19:51:59,253 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-17 19:52:01,971 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-17/Outsourcing Offline Jobs/
+2026-07-17 19:52:02,339 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-17 19:52:02,339 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 1 naye posts saved -> data/2026-07-17/Outsourcing Offline Jobs
+2026-07-17 19:52:09,395 [INFO] Formatted via: groq — UP Anganwadi Worker Bharti Recruitment 2026 Government Jobs in Uttar Pradesh Apply Now
+2026-07-17 19:52:10,163 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 19:52:10,163 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 19:52:16,673 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 19:52:16,673 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 19:52:23,183 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 19:52:27,184 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-17 19:52:27,185 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/1 drafts saved. Failed: ['UP Uttar Pradesh Anganwadi Worker Bharti Recruitment 2026 Apply Online District Wise Vacancy Details, Raebareli, Ghaziabad, Anganwadi, Worker Form 2026 and other Various District']
+2026-07-17 19:52:27,185 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-17 19:52:30,014 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-17 19:52:30,014 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-17 19:52:30,014 [INFO] ============================================================
+2026-07-17 19:52:30,014 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-17 19:52:30,014 [INFO] ============================================================
+

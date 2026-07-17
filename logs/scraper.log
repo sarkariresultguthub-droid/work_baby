@@ -7109,3 +7109,38 @@
 2026-07-17 19:52:30,014 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-17 19:52:30,014 [INFO] ============================================================
 
+2026-07-17 22:34:38,876 [INFO] 
+============================================================
+2026-07-17 22:34:38,876 [INFO] 🔍 [run_once] Check started at 2026-07-17T22:34:38.876424Z
+2026-07-17 22:34:38,876 [INFO] ============================================================
+2026-07-17 22:34:38,876 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-17 22:34:44,566 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-17 22:34:44,567 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-17 22:34:44,567 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-17 22:34:51,244 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-17 22:34:51,245 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-17 22:34:51,245 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-17 22:34:56,313 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-17 22:34:56,314 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-17 22:34:56,314 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-17 22:35:01,339 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-17 22:35:01,340 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-17 22:35:01,340 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-17 22:35:04,894 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-17 22:35:04,894 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-17 22:35:04,894 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-17 22:35:08,933 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-17 22:35:08,933 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-17 22:35:08,933 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-17 22:35:10,671 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-17 22:35:10,671 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-17 22:35:10,671 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-17 22:35:12,770 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-17 22:35:12,770 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-17 22:35:12,771 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-17 22:35:15,721 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-17 22:35:15,721 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-17 22:35:15,721 [INFO] ============================================================
+2026-07-17 22:35:15,721 [INFO] ✅ [run_once] Check complete. any_new_post=False
+2026-07-17 22:35:15,721 [INFO] ============================================================
+

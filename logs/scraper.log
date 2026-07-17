@@ -6996,3 +6996,71 @@
 2026-07-17 09:19:47,149 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-17 09:19:47,149 [INFO] ============================================================
 
+2026-07-17 15:01:21,776 [INFO] 
+============================================================
+2026-07-17 15:01:21,776 [INFO] 🔍 [run_once] Check started at 2026-07-17T15:01:21.776901Z
+2026-07-17 15:01:21,777 [INFO] ============================================================
+2026-07-17 15:01:21,777 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-17 15:01:29,986 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-17 15:01:36,955 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-17/Latest Job/
+2026-07-17 15:01:37,266 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-17 15:01:37,267 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-07-17/Latest Job
+2026-07-17 15:01:43,817 [INFO] Formatted via: groq — National Insurance NICL Assistant Recruitment 2026 Government Job in India Apply Now
+2026-07-17 15:01:44,470 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:01:44,471 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 15:01:50,944 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:01:50,944 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 15:01:57,401 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:02:01,402 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-17 15:02:01,402 [INFO] 📝 [Latest Job] Format+Publish: 0/1 drafts saved. Failed: ['National Insurance NICL Assistant Recruitment 2026']
+2026-07-17 15:02:01,402 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-17 15:02:07,656 [INFO] [SarkariResult] [Admit Card] ✅ 3 NAYA post mila! Full data fetch kar raha hun...
+2026-07-17 15:02:34,812 [INFO] [SarkariResult] 3 posts saved -> data/2026-07-17/Admit Card/
+2026-07-17 15:02:35,138 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-17 15:02:35,139 [INFO] ✅ [SarkariResult] [Admit Card] 3 naye posts saved -> data/2026-07-17/Admit Card
+2026-07-17 15:02:40,480 [INFO] Formatted via: groq — RSSB Women Supervisor Recruitment 2026 Admit Card **Rajasthan**
+2026-07-17 15:02:40,944 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:02:40,944 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 15:02:47,660 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:02:47,660 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 15:02:54,141 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:03:03,877 [INFO] Formatted via: groq — SBI Probationary Officers PO Recruitment 2026 in India - Apply Now
+2026-07-17 15:03:04,352 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:03:04,352 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 15:03:10,824 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:03:10,824 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 15:03:17,329 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:03:21,689 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-17 15:03:27,865 [INFO] Formatted via: groq — UPSSSC Assistant Statistical Officer Recruitment 2026 Government Jobs in Uttar Pradesh Apply Now
+2026-07-17 15:03:28,813 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:03:28,813 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 15:03:35,279 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:03:35,279 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-17 15:03:42,174 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-17 15:03:46,175 [INFO] 📊 Format+Publish summary: 3/3 formatted, 0/3 published as draft.
+2026-07-17 15:03:46,175 [INFO] 📝 [Admit Card] Format+Publish: 0/3 drafts saved. Failed: ['Rajasthan Staff Selection Board RSSB Women Supervisor Recruitment 2026 Exam City / Admit Card', 'State Bank of India SBI Probationary Officers PO Recruitment 2026 : Pre Exam Training', 'UPSSSC UP Assistant Statistical Officer ASO Recruitment 2026 Exam City Details Advt No 05-Exam/2026']
+2026-07-17 15:03:46,175 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-17 15:04:04,149 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-17 15:04:04,151 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-17 15:04:04,151 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-17 15:04:07,375 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-17 15:04:07,375 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-17 15:04:07,375 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-17 15:04:09,647 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-17 15:04:09,647 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-17 15:04:09,647 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-17 15:04:11,765 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-17 15:04:11,765 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-17 15:04:11,765 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-17 15:04:13,853 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-17 15:04:13,853 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-17 15:04:13,853 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-17 15:04:15,989 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-17 15:04:15,989 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-17 15:04:15,989 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-17 15:04:18,835 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-17 15:04:18,835 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-17 15:04:18,835 [INFO] ============================================================
+2026-07-17 15:04:18,835 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-17 15:04:18,835 [INFO] ============================================================
+

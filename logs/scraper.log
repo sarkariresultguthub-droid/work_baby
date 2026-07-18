@@ -7324,3 +7324,80 @@
 2026-07-18 14:40:14,168 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-18 14:40:14,169 [INFO] ============================================================
 
+2026-07-18 18:09:01,773 [INFO] 
+============================================================
+2026-07-18 18:09:01,773 [INFO] 🔍 [run_once] Check started at 2026-07-18T18:09:01.773111Z
+2026-07-18 18:09:01,773 [INFO] ============================================================
+2026-07-18 18:09:01,773 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-18 18:09:06,143 [INFO] [SarkariResult] [Latest Job] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-07-18 18:09:15,095 [INFO] [SarkariResult] 2 posts saved -> data/2026-07-18/Latest Job/
+2026-07-18 18:09:15,416 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-18 18:09:15,417 [INFO] ✅ [SarkariResult] [Latest Job] 2 naye posts saved -> data/2026-07-18/Latest Job
+2026-07-18 18:09:22,597 [INFO] Formatted via: groq — ICERT Scientist B Recruitment 2026 | Government Job | India | Apply Now
+2026-07-18 18:09:23,273 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-18 18:09:23,273 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:09:30,165 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-18 18:09:30,165 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:09:36,660 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-18 18:09:46,479 [INFO] Formatted via: groq — Indian Army JAG 125th Entry Government Job India 2026 Apply Now
+2026-07-18 18:09:46,999 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-18 18:09:46,999 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:09:53,513 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-18 18:09:53,513 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:10:00,407 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-18 18:10:04,521 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-18 18:10:12,275 [INFO] Formatted via: groq — Jharkhand JSSC JILCCE Inter Level Recruitment 2026 Government Jobs in India Apply Now
+2026-07-18 18:10:12,783 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-18 18:10:12,783 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:10:19,655 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-18 18:10:19,655 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:10:26,851 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-18 18:10:37,344 [INFO] Formatted via: groq — MP High Court Senior Computer Programmer Assistant Recruitment 2026 Government Job in India Apply Offline by 10 August 2026
+2026-07-18 18:10:37,841 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-18 18:10:37,841 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:10:44,725 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-18 18:10:44,725 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:10:51,312 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-18 18:11:01,345 [INFO] Formatted via: groq — Rajasthan High Court Stenographer Recruitment 2026 Government Jobs India Apply Now
+2026-07-18 18:11:02,234 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-18 18:11:02,234 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:11:08,916 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-18 18:11:08,916 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:11:15,431 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-18 18:11:19,586 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-18 18:11:25,464 [INFO] Formatted via: groq — WCL Mining Sirdar, Assistant Foreman Recruitment 2026 + Government Job + India + Apply Now
+2026-07-18 18:11:26,485 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-18 18:11:26,485 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:11:33,388 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-18 18:11:33,388 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-18 18:11:40,258 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-18 18:11:44,259 [INFO] 📊 Format+Publish summary: 6/6 formatted, 0/6 published as draft.
+2026-07-18 18:11:44,259 [INFO] 📝 [Latest Job] Format+Publish: 0/6 drafts saved. Failed: ['CERT in Scientist B Recruitment 2026 Apply Online for 133 Post', 'Indian Army JAG 125th Entry 2026 Apply Online', 'Jharkhand JSSC JILCCE Inter Level Recruitment 2026 Apply Online for 326 Post', 'Madhya Pradesh High Court MPHC\xa0 Senior Computer Programmer Assistant Recruitment 2026 Apply Offline for 130 Post', 'Rajasthan High Court Stenographer Recruitment 2026 Apply Online for 163 Post', 'Western Coalfield Limited WCL Mining Sirdar & Assistant Foreman Recruitment 2026 Apply Online for 444 Post']
+2026-07-18 18:11:44,259 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-18 18:11:49,794 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-18 18:11:49,796 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-18 18:11:49,796 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-18 18:11:56,793 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-18 18:11:56,794 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-18 18:11:56,794 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-18 18:12:00,404 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-18 18:12:00,404 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-18 18:12:00,404 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-18 18:12:02,344 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-18 18:12:02,345 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-18 18:12:02,345 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-18 18:12:05,643 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-18 18:12:05,643 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-18 18:12:05,644 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-18 18:12:12,508 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-18 18:12:12,508 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-18 18:12:12,508 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-18 18:12:15,626 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-18 18:12:15,626 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-18 18:12:15,626 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-18 18:12:17,600 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-18 18:12:17,600 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-18 18:12:17,600 [INFO] ============================================================
+2026-07-18 18:12:17,600 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-18 18:12:17,600 [INFO] ============================================================
+

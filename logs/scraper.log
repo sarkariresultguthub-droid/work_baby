@@ -7696,3 +7696,81 @@
 2026-07-20 10:30:58,078 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-20 10:30:58,078 [INFO] ============================================================
 
+2026-07-20 20:55:50,071 [INFO] 
+============================================================
+2026-07-20 20:55:50,071 [INFO] 🔍 [run_once] Check started at 2026-07-20T20:55:50.071301Z
+2026-07-20 20:55:50,071 [INFO] ============================================================
+2026-07-20 20:55:50,071 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-20 20:55:56,578 [INFO] [SarkariResult] [Latest Job] ✅ 3 NAYA post mila! Full data fetch kar raha hun...
+2026-07-20 20:56:10,089 [INFO] [SarkariResult] 3 posts saved -> data/2026-07-20/Latest Job/
+2026-07-20 20:56:10,484 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-20 20:56:10,485 [INFO] ✅ [SarkariResult] [Latest Job] 3 naye posts saved -> data/2026-07-20/Latest Job
+2026-07-20 20:56:16,759 [INFO] Formatted via: groq — IGCAR Apprentices Online Form 2026 | Government Jobs in India | Apply Now
+2026-07-20 20:56:17,481 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:56:17,481 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:56:24,065 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:56:24,065 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:56:31,025 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 20:56:41,532 [INFO] Formatted via: groq — IIT GATE 2027 Online Form + Government Job + India + 2027 + Apply Now
+2026-07-20 20:56:42,102 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:56:42,102 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:56:48,673 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:56:48,673 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:56:55,228 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:56:59,336 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-20 20:57:06,715 [INFO] Formatted via: groq — Punjab National Bank PNB Local Bank Officer LBO Recruitment 2026 Apply Online for 545 Post
+2026-07-20 20:57:07,280 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:57:07,280 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:57:14,191 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 20:57:14,191 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:57:21,289 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 20:57:25,290 [INFO] 📊 Format+Publish summary: 3/3 formatted, 0/3 published as draft.
+2026-07-20 20:57:25,290 [INFO] 📝 [Latest Job] Format+Publish: 0/3 drafts saved. Failed: ['IGCAR Various Trade Apprentice 2026 Apply Online for 200 Post', 'IIT GATE 2027 Exam Apply Online Form | Information Brochure and More', 'Punjab National Bank PNB Local Bank Officer LBO Recruitment 2026 Apply Online for 545 Post']
+2026-07-20 20:57:25,291 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-20 20:57:37,089 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-20 20:57:37,091 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-20 20:57:37,091 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-20 20:57:43,936 [INFO] [SarkariResult] [Results] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-20 20:57:51,221 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-20/Results/
+2026-07-20 20:57:51,786 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-20 20:57:51,787 [INFO] ✅ [SarkariResult] [Results] 1 naye posts saved -> data/2026-07-20/Results
+2026-07-20 20:57:59,105 [INFO] Formatted via: groq — UPPSC GIC Lecturer Recruitment 2025 Results Download
+2026-07-20 20:57:59,658 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:57:59,658 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:58:06,293 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:58:06,294 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:58:12,847 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:58:16,849 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-20 20:58:16,849 [INFO] 📝 [Results] Format+Publish: 0/1 drafts saved. Failed: ['UPPSC GIC Lecturer Recruitment 2025 Download Result\xa0 2026 for 1516 Post']
+2026-07-20 20:58:16,849 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-20 20:58:19,593 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-20 20:58:19,594 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-20 20:58:19,594 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-20 20:58:22,829 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-20 20:58:22,829 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-20 20:58:22,830 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-20 20:58:25,283 [INFO] [SarkariResult] [Admission] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-20 20:58:27,734 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-20/Admission/
+2026-07-20 20:58:28,089 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-20 20:58:28,090 [INFO] ✅ [SarkariResult] [Admission] 1 naye posts saved -> data/2026-07-20/Admission
+2026-07-20 20:58:34,382 [INFO] Formatted via: groq — IIT GATE 2027 Online Form + Admission + India + 2026 + Apply Now
+2026-07-20 20:58:35,220 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:58:35,220 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:58:41,766 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:58:41,766 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 20:58:48,342 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-20 20:58:52,344 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-20 20:58:52,344 [INFO] 📝 [Admission] Format+Publish: 0/1 drafts saved. Failed: ['IIT GATE 2027 Exam Apply Online Form | Information Brochure and More']
+2026-07-20 20:58:52,344 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-20 20:58:58,111 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-20 20:58:58,111 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-20 20:58:58,111 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-20 20:59:06,047 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-20 20:59:06,048 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-20 20:59:06,048 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-20 20:59:07,798 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-20 20:59:07,798 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-20 20:59:07,798 [INFO] ============================================================
+2026-07-20 20:59:07,798 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-20 20:59:07,798 [INFO] ============================================================
+

@@ -7611,3 +7611,88 @@
 2026-07-19 22:37:44,965 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-19 22:37:44,965 [INFO] ============================================================
 
+2026-07-20 10:24:49,539 [INFO] 
+============================================================
+2026-07-20 10:24:49,539 [INFO] 🔍 [run_once] Check started at 2026-07-20T10:24:49.539916Z
+2026-07-20 10:24:49,539 [INFO] ============================================================
+2026-07-20 10:24:49,540 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-20 10:25:03,594 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-20 10:25:03,595 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-20 10:25:03,595 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-20 10:25:10,319 [INFO] [SarkariResult] [Admit Card] ✅ 4 NAYA post mila! Full data fetch kar raha hun...
+2026-07-20 10:25:48,761 [INFO] [SarkariResult] 4 posts saved -> data/2026-07-20/Admit Card/
+2026-07-20 10:25:49,136 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-20 10:25:49,137 [INFO] ✅ [SarkariResult] [Admit Card] 4 naye posts saved -> data/2026-07-20/Admit Card
+2026-07-20 10:25:56,124 [INFO] Formatted via: groq — BSUSC Bihar Assistant Professor Recruitment 2026 Government Jobs India Apply Now
+2026-07-20 10:25:57,188 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:25:57,188 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:26:04,085 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:26:04,085 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:26:10,976 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:26:15,047 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-20 10:26:21,168 [INFO] Formatted via: groq — Rajasthan RPSC Junior Legal Officer JLO Recruitment 2025 Admit Card
+2026-07-20 10:26:22,051 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:26:22,051 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:26:28,950 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:26:28,950 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:26:35,853 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:26:48,145 [INFO] Formatted via: groq — UPSSSC Lower PCS Mains Exam Fee Payment 2026 Government Jobs in Uttar Pradesh, India - Apply Now
+2026-07-20 10:26:49,040 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:26:49,041 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:26:55,934 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:26:55,935 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:27:02,951 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:27:14,530 [INFO] Formatted via: groq — UPSSSC Technical Assistant Group C Recruitment 2026 in **India** - Apply Now
+2026-07-20 10:27:15,415 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:27:15,415 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:27:22,490 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:27:22,490 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:27:29,385 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:27:33,386 [INFO] 📊 Format+Publish summary: 4/4 formatted, 0/4 published as draft.
+2026-07-20 10:27:33,386 [INFO] 📝 [Admit Card] Format+Publish: 0/4 drafts saved. Failed: ['Bihar BSUSC Assistant Professor Recruitment 2026 Interview Latter', 'Rajasthan RPSC Junior Legal Officer JLO Recruitment 2025 Exam Date / Admit Card', 'UPSSSC UP Combined Lower Subordinate Services (Graduate Level) Recruitment 2026 Eligibility Result, Mains Exam Fee Payment', 'UPSSSC UP Technical Assistant Group C Recruitment 2026 Eligibility Result, Mains Fee Payment for 2759 Post']
+2026-07-20 10:27:33,386 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-20 10:28:12,763 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-20 10:28:12,764 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-20 10:28:12,764 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-20 10:28:16,308 [INFO] [SarkariResult] [Answer Key] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-20 10:28:38,573 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-20/Answer Key/
+2026-07-20 10:28:38,935 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-20 10:28:38,936 [INFO] ✅ [SarkariResult] [Answer Key] 1 naye posts saved -> data/2026-07-20/Answer Key
+2026-07-20 10:28:48,552 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 250 (char 794)
+2026-07-20 10:28:48,552 [INFO] Formatted via: template — Rajasthan Staff Selection Board RSSB Forester Recruitment 2026 Answer Key
+2026-07-20 10:28:49,482 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:28:49,482 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:28:56,381 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:28:56,381 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:29:03,278 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:29:07,279 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-20 10:29:07,280 [INFO] 📝 [Answer Key] Format+Publish: 0/1 drafts saved. Failed: ['Rajasthan Staff Selection Board RSSB Forester Recruitment 2026 Answer Key']
+2026-07-20 10:29:07,280 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-20 10:29:20,226 [INFO] [SarkariResult] [Syllabus] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-20 10:29:30,607 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-20/Syllabus/
+2026-07-20 10:29:30,932 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-20 10:29:30,933 [INFO] ✅ [SarkariResult] [Syllabus] 1 naye posts saved -> data/2026-07-20/Syllabus
+2026-07-20 10:29:37,460 [INFO] Formatted via: groq — UPSSSC Moharir Recruitment 2022 Syllabus Notice for 92 Post in **Uttar Pradesh**
+2026-07-20 10:29:38,353 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:29:38,353 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:29:45,413 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:29:45,413 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-20 10:29:52,663 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-20 10:29:56,664 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-20 10:29:56,664 [INFO] 📝 [Syllabus] Format+Publish: 0/1 drafts saved. Failed: ['UPSSSC Uttar Pradesh Moharir Recruitment 2022 Syllabus Notice for 92 Post']
+2026-07-20 10:29:56,665 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-20 10:29:58,055 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-20 10:29:58,056 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-20 10:29:58,056 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-20 10:30:01,762 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-20 10:30:01,762 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-20 10:30:01,762 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-20 10:30:03,464 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-20 10:30:03,465 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-20 10:30:03,465 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-20 10:30:58,078 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-20 10:30:58,078 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-20 10:30:58,078 [INFO] ============================================================
+2026-07-20 10:30:58,078 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-20 10:30:58,078 [INFO] ============================================================
+

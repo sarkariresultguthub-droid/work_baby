@@ -7957,3 +7957,85 @@
 2026-07-21 16:08:35,447 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-21 16:08:35,447 [INFO] ============================================================
 
+2026-07-21 20:49:33,153 [INFO] 
+============================================================
+2026-07-21 20:49:33,153 [INFO] 🔍 [run_once] Check started at 2026-07-21T20:49:33.153341Z
+2026-07-21 20:49:33,153 [INFO] ============================================================
+2026-07-21 20:49:33,153 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-21 20:49:40,438 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-21 20:49:43,110 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-21/Latest Job/
+2026-07-21 20:49:43,505 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-21 20:49:43,507 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-07-21/Latest Job
+2026-07-21 20:49:50,287 [INFO] Formatted via: groq — Indian Army NCC Special Entry 125th Course April Batch Online Form 2026 - Government Jobs in India 2026 - Apply Now
+2026-07-21 20:49:51,057 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:49:51,057 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:49:57,641 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:49:57,641 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:50:04,235 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:50:14,878 [INFO] Formatted via: groq — Railway RRB Junior Engineer Online Form 2026 CEN 04/2026 + Government Job + India + 2026 + Apply Now
+2026-07-21 20:50:15,475 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:50:15,475 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:50:22,057 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:50:22,057 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:50:28,648 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:50:32,746 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-21 20:50:39,242 [INFO] Formatted via: groq — Union Bank of India UBI Specialist Officer Online Form 2026 + Government Job + India + Apply Now
+2026-07-21 20:50:39,806 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:50:39,806 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:50:46,395 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:50:46,395 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:50:53,074 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:51:04,521 [INFO] Formatted via: groq — UPESSC Principal Recruitment 2026 Government Job in Uttar Pradesh, India - Apply Now
+2026-07-21 20:51:05,339 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:51:05,339 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:51:11,920 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:51:11,921 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:51:18,544 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:51:22,712 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-21 20:51:28,666 [INFO] Formatted via: groq — UP Lakhimpur Kheri ECCE Educator Recruitment 2026 | Government Job in India | Apply Now
+2026-07-21 20:51:29,249 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:51:29,249 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:51:35,833 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:51:35,833 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:51:42,416 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:51:46,418 [INFO] 📊 Format+Publish summary: 5/5 formatted, 0/5 published as draft.
+2026-07-21 20:51:46,418 [INFO] 📝 [Latest Job] Format+Publish: 0/5 drafts saved. Failed: ['Indian Army NCC Special Entry 125th Corse April Batch Online Form 2026', 'Railway RRB Junior Engineer CEN 04/2026 Recruitment 2026 Apply Online for 4090 Post', 'Union Bank of India UBI Specialist Officers SO Various Post Online Form 2026 for 395 Post', 'Uttar Pradesh Education Service Selection Commission UPESSC Principal Recruitment 2026 : Apply Online for 111 Post', 'Uttar Pradesh UP Basic Education Lakhimpur Kheri ECCE Educator Outsourcing Recruitment 2026 Apply Online For 71 Post']
+2026-07-21 20:51:46,418 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-21 20:51:52,713 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-21 20:51:52,715 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-21 20:51:52,715 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-21 20:51:58,230 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-21 20:51:58,231 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-21 20:51:58,231 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-21 20:52:03,183 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-21 20:52:03,183 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-21 20:52:03,183 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-21 20:52:04,927 [INFO] [SarkariResult] [Syllabus] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-21 20:52:12,062 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-21/Syllabus/
+2026-07-21 20:52:12,485 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-21 20:52:12,486 [INFO] ✅ [SarkariResult] [Syllabus] 1 naye posts saved -> data/2026-07-21/Syllabus
+2026-07-21 20:52:18,963 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 256 (char 832)
+2026-07-21 20:52:18,963 [INFO] Formatted via: template — Uttar Pradesh Education Service Selection Commission UPESSC Principal Recruitment 2026 : Apply Online for 111 Post
+2026-07-21 20:52:19,652 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:52:19,652 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:52:26,238 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:52:26,238 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 20:52:32,834 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 20:52:36,835 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-21 20:52:36,835 [INFO] 📝 [Syllabus] Format+Publish: 0/1 drafts saved. Failed: ['Uttar Pradesh Education Service Selection Commission UPESSC Principal Recruitment 2026 : Apply Online for 111 Post']
+2026-07-21 20:52:36,836 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-21 20:52:44,393 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-21 20:52:44,393 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-21 20:52:44,393 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-21 20:52:58,841 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-21 20:52:58,841 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-21 20:52:58,842 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-21 20:53:01,168 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-21 20:53:01,168 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-21 20:53:01,168 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-21 20:53:02,959 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-21 20:53:02,959 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-21 20:53:02,959 [INFO] ============================================================
+2026-07-21 20:53:02,959 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-21 20:53:02,959 [INFO] ============================================================
+

@@ -7809,3 +7809,98 @@
 2026-07-21 00:16:26,178 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-21 00:16:26,178 [INFO] ============================================================
 
+2026-07-21 10:08:20,258 [INFO] 
+============================================================
+2026-07-21 10:08:20,258 [INFO] 🔍 [run_once] Check started at 2026-07-21T10:08:20.258144Z
+2026-07-21 10:08:20,258 [INFO] ============================================================
+2026-07-21 10:08:20,258 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-21 10:08:24,881 [INFO] [SarkariResult] [Latest Job] ✅ 4 NAYA post mila! Full data fetch kar raha hun...
+2026-07-21 10:09:05,504 [INFO] [SarkariResult] 4 posts saved -> data/2026-07-21/Latest Job/
+2026-07-21 10:09:05,856 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-21 10:09:05,857 [INFO] ✅ [SarkariResult] [Latest Job] 4 naye posts saved -> data/2026-07-21/Latest Job
+2026-07-21 10:09:13,031 [INFO] Formatted via: groq — Indian Army NCC 125th Special Entry Scheme 2026 + Government Job + India + Apply Now
+2026-07-21 10:09:13,544 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:09:13,544 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:09:20,035 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:09:20,035 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:09:26,511 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:09:30,602 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-21 10:09:36,849 [INFO] Formatted via: groq — Railway RRB Junior Engineer Online Form 2026 + Government Job + India + 2026 + Apply Now
+2026-07-21 10:09:37,683 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 10:09:37,683 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:09:44,155 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:09:44,155 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:09:51,015 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 10:10:01,454 [INFO] Formatted via: groq — Union Bank of India UBI Specialist Officer Online Form 2026 - Apply Now
+2026-07-21 10:10:01,933 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:10:01,933 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:10:08,411 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:10:08,411 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:10:14,938 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:10:19,120 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-21 10:10:24,897 [INFO] Formatted via: groq — UP Lakhimpur Kheri ECCE Educator Recruitment 2026 in **India** - Apply Now
+2026-07-21 10:10:25,549 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:10:25,550 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:10:32,417 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 10:10:32,417 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:10:39,551 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:10:43,553 [INFO] 📊 Format+Publish summary: 4/4 formatted, 0/4 published as draft.
+2026-07-21 10:10:43,553 [INFO] 📝 [Latest Job] Format+Publish: 0/4 drafts saved. Failed: ['Indian Army NCC Special Entry 125th Corse April Batch Online Form 2026', 'Railway RRB Junior Engineer CEN 04/2026 Recruitment 2026 Apply Online for 4090 Post', 'Union Bank of India UBI Specialist Officers SO Various Post Online Form 2026 for 395 Post', 'Uttar Pradesh UP Basic Education Lakhimpur Kheri ECCE Educator Outsourcing Recruitment 2026 Apply Online For 71 Post']
+2026-07-21 10:10:43,553 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-21 10:10:50,107 [INFO] [SarkariResult] [Admit Card] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-21 10:10:57,708 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-21/Admit Card/
+2026-07-21 10:10:58,008 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-21 10:10:58,009 [INFO] ✅ [SarkariResult] [Admit Card] 1 naye posts saved -> data/2026-07-21/Admit Card
+2026-07-21 10:11:04,667 [INFO] Formatted via: groq — CBSE Board Class 12th Supplementary Admit Card 2026 - Download Now
+2026-07-21 10:11:05,199 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:11:05,199 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:11:11,669 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:11:11,670 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:11:18,176 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:11:22,178 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-21 10:11:22,178 [INFO] 📝 [Admit Card] Format+Publish: 0/1 drafts saved. Failed: ['CBSE Board Supplementary Admit Card 2026']
+2026-07-21 10:11:22,178 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-21 10:11:49,799 [INFO] [SarkariResult] [Results] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-21 10:11:50,799 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-21/Results/
+2026-07-21 10:11:51,094 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-21 10:11:51,095 [INFO] ✅ [SarkariResult] [Results] 1 naye posts saved -> data/2026-07-21/Results
+2026-07-21 10:11:56,024 [INFO] Formatted via: groq — Punjab and Sindh Bank LBO Result 2026 Government Jobs India
+2026-07-21 10:11:56,501 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:11:56,501 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:12:03,344 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 10:12:03,344 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:12:10,197 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 10:12:14,198 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-21 10:12:14,199 [INFO] 📝 [Results] Format+Publish: 0/1 drafts saved. Failed: ['Punjab and Sindh Bank LBO Result 2026']
+2026-07-21 10:12:14,199 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-21 10:12:23,921 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-21 10:12:23,921 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-21 10:12:23,921 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-21 10:12:33,294 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-21 10:12:33,295 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-21 10:12:33,295 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-21 10:12:44,005 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-21 10:12:44,005 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-21 10:12:44,005 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-21 10:12:46,210 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-21 10:12:46,210 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-21 10:12:46,210 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-21 10:12:53,553 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-21 10:13:01,458 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-21/Outsourcing Offline Jobs/
+2026-07-21 10:13:01,776 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-21 10:13:01,777 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 1 naye posts saved -> data/2026-07-21/Outsourcing Offline Jobs
+2026-07-21 10:13:07,273 [INFO] Formatted via: groq — UP Lakhimpur Kheri ECCE Educator Recruitment 2026 | Government Jobs in India | Apply Now
+2026-07-21 10:13:07,821 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:13:07,821 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:13:14,309 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 10:13:14,309 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 10:13:21,163 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 10:13:25,164 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-21 10:13:25,165 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/1 drafts saved. Failed: ['Uttar Pradesh UP Basic Education Lakhimpur Kheri ECCE Educator Outsourcing Recruitment 2026 Apply Online For 71 Post']
+2026-07-21 10:13:25,165 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-21 10:13:34,285 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-21 10:13:34,286 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-21 10:13:34,286 [INFO] ============================================================
+2026-07-21 10:13:34,286 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-21 10:13:34,286 [INFO] ============================================================
+

@@ -7904,3 +7904,56 @@
 2026-07-21 10:13:34,286 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-21 10:13:34,286 [INFO] ============================================================
 
+2026-07-21 16:06:38,337 [INFO] 
+============================================================
+2026-07-21 16:06:38,337 [INFO] 🔍 [run_once] Check started at 2026-07-21T16:06:38.337713Z
+2026-07-21 16:06:38,337 [INFO] ============================================================
+2026-07-21 16:06:38,337 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-21 16:06:48,048 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-21 16:06:48,050 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-21 16:06:48,050 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-21 16:06:52,973 [INFO] [SarkariResult] [Admit Card] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-21 16:07:03,981 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-21/Admit Card/
+2026-07-21 16:07:04,318 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-21 16:07:04,319 [INFO] ✅ [SarkariResult] [Admit Card] 1 naye posts saved -> data/2026-07-21/Admit Card
+2026-07-21 16:07:11,621 [INFO] Formatted via: groq — CBSE Board Supplementary Admit Card 2026 + Admit Card + India + 2026 + Apply Now
+2026-07-21 16:07:12,759 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 16:07:12,759 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 16:07:19,325 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 16:07:19,326 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 16:07:25,896 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-21 16:07:29,974 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-21 16:07:37,820 [ERROR] Groq JSON parse failed: Invalid control character at: line 6 column 162 (char 516)
+2026-07-21 16:07:37,821 [INFO] Formatted via: template — Delhi Higher Judicial Services HJS Recruitment 2026 Admit Card
+2026-07-21 16:07:38,805 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 16:07:38,805 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 16:07:45,812 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 16:07:45,812 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-21 16:07:52,787 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-21 16:07:56,788 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-07-21 16:07:56,789 [INFO] 📝 [Admit Card] Format+Publish: 0/2 drafts saved. Failed: ['CBSE Board Supplementary Admit Card 2026', 'Delhi Higher Judicial Services HJS Recruitment 2026 Admit Card']
+2026-07-21 16:07:56,789 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-21 16:08:02,673 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-21 16:08:02,674 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-21 16:08:02,674 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-21 16:08:09,052 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-21 16:08:09,052 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-21 16:08:09,052 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-21 16:08:15,484 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-21 16:08:15,485 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-21 16:08:15,485 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-21 16:08:18,275 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-21 16:08:18,276 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-21 16:08:18,276 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-21 16:08:26,117 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-21 16:08:26,117 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-21 16:08:26,117 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-21 16:08:29,068 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-21 16:08:29,068 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-21 16:08:29,068 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-21 16:08:35,447 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-21 16:08:35,447 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-21 16:08:35,447 [INFO] ============================================================
+2026-07-21 16:08:35,447 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-21 16:08:35,447 [INFO] ============================================================
+

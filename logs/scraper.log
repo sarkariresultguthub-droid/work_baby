@@ -8183,3 +8183,101 @@
 2026-07-22 16:18:34,256 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-22 16:18:34,256 [INFO] ============================================================
 
+2026-07-22 20:46:07,828 [INFO] 
+============================================================
+2026-07-22 20:46:07,828 [INFO] 🔍 [run_once] Check started at 2026-07-22T20:46:07.828509Z
+2026-07-22 20:46:07,828 [INFO] ============================================================
+2026-07-22 20:46:07,828 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-22 20:46:13,329 [INFO] [SarkariResult] [Latest Job] ✅ 3 NAYA post mila! Full data fetch kar raha hun...
+2026-07-22 20:46:29,384 [INFO] [SarkariResult] 3 posts saved -> data/2026-07-22/Latest Job/
+2026-07-22 20:46:29,702 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-22 20:46:29,703 [INFO] ✅ [SarkariResult] [Latest Job] 3 naye posts saved -> data/2026-07-22/Latest Job
+2026-07-22 20:46:36,119 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 224 (char 808)
+2026-07-22 20:46:36,119 [INFO] Formatted via: template — Rajasthan RPSC Physiotherapist (NSA) Recruitment 2026 Apply Online
+2026-07-22 20:46:36,775 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:46:36,775 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:46:43,783 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-22 20:46:43,783 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:46:50,325 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:47:00,381 [INFO] Formatted via: groq — UPSRTC Azamgarh, Mau, Ballia Conductor Recruitment 2026 India Apply Now
+2026-07-22 20:47:01,406 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-22 20:47:01,407 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:47:07,971 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:47:07,971 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:47:14,524 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:47:18,638 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-22 20:47:25,291 [INFO] Formatted via: groq — UP Bijnor ECCE Educator Recruitment 2026 Government Jobs India Apply Now
+2026-07-22 20:47:25,962 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:47:25,962 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:47:32,988 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-22 20:47:32,988 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:47:39,629 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:47:50,599 [INFO] Formatted via: groq — UP Kannauj ECCE Educator Recruitment 2026 | Government Job in India | Apply Now
+2026-07-22 20:47:51,603 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-22 20:47:51,604 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:47:58,155 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:47:58,155 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:48:04,703 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:48:08,704 [INFO] 📊 Format+Publish summary: 4/4 formatted, 0/4 published as draft.
+2026-07-22 20:48:08,705 [INFO] 📝 [Latest Job] Format+Publish: 0/4 drafts saved. Failed: ['Rajasthan RPSC Physiotherapist (NSA) Recruitment 2026 Apply Online', 'UPSRTC Azamgarh, Mau, Ballia उत्तर प्रदेश राज्य सड़क परिवहन निगम Conductor Meerut Outsourcing Recruitment Online Form2026', 'Uttar Pradesh UP Basic Education Bijnor ECCE Educator Outsourcing Recruitment 2026 Apply Online For 159 Post', 'Uttar Pradesh UP Basic Education Kannauj ECCE Educator Outsourcing Recruitment 2026 Apply Online For 195 Post']
+2026-07-22 20:48:08,705 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-22 20:48:18,414 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-22 20:48:18,415 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-22 20:48:18,415 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-22 20:48:31,132 [INFO] [SarkariResult] [Results] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-22 20:48:34,776 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-22/Results/
+2026-07-22 20:48:35,075 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-22 20:48:35,075 [INFO] ✅ [SarkariResult] [Results] 1 naye posts saved -> data/2026-07-22/Results
+2026-07-22 20:48:41,952 [INFO] Formatted via: groq — UPSSSC Stenographer Recruitment 2024 Result in Uttar Pradesh, India 2026 - Apply Now
+2026-07-22 20:48:42,604 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:48:42,604 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:48:49,614 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-22 20:48:49,614 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:48:56,629 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-22 20:49:00,630 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-22 20:49:00,630 [INFO] 📝 [Results] Format+Publish: 0/1 drafts saved. Failed: ['UPSSSC Stenographer Recruitment 2024\xa0 Result 2026 for 661 Post']
+2026-07-22 20:49:00,630 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-22 20:49:04,310 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-22 20:49:04,310 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-22 20:49:04,310 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-22 20:49:17,104 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-22 20:49:17,104 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-22 20:49:17,105 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-22 20:49:28,581 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-22 20:49:28,581 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-22 20:49:28,581 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-22 20:49:33,310 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-22 20:49:33,310 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-22 20:49:33,310 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-22 20:49:39,808 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 3 NAYA post mila! Full data fetch kar raha hun...
+2026-07-22 20:49:57,427 [INFO] [SarkariResult] 3 posts saved -> data/2026-07-22/Outsourcing Offline Jobs/
+2026-07-22 20:49:57,722 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-22 20:49:57,723 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 3 naye posts saved -> data/2026-07-22/Outsourcing Offline Jobs
+2026-07-22 20:50:04,659 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 225 (char 777)
+2026-07-22 20:50:04,659 [INFO] Formatted via: template — UPSRTC Azamgarh, Mau, Ballia उत्तर प्रदेश राज्य सड़क परिवहन निगम Conductor Meerut Outsourcing Recruitment Online Form2026
+2026-07-22 20:50:05,241 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:50:05,241 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:50:11,795 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:50:11,795 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:50:18,343 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:50:28,805 [INFO] Formatted via: groq — UP Bijnor ECCE Educator Recruitment 2026 | Outsourcing | Uttar Pradesh | Apply Now
+2026-07-22 20:50:29,342 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:50:29,342 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:50:35,890 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:50:35,890 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:50:42,448 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:50:53,204 [INFO] Formatted via: groq — UP Kannauj ECCE Educator Outsourcing Recruitment 2026 in India - Apply Now
+2026-07-22 20:50:53,744 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:50:53,744 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:51:00,470 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:51:00,470 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 20:51:07,371 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 20:51:11,372 [INFO] 📊 Format+Publish summary: 3/3 formatted, 0/3 published as draft.
+2026-07-22 20:51:11,372 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/3 drafts saved. Failed: ['UPSRTC Azamgarh, Mau, Ballia उत्तर प्रदेश राज्य सड़क परिवहन निगम Conductor Meerut Outsourcing Recruitment Online Form2026', 'Uttar Pradesh UP Basic Education Bijnor ECCE Educator Outsourcing Recruitment 2026 Apply Online For 159 Post', 'Uttar Pradesh UP Basic Education Kannauj ECCE Educator Outsourcing Recruitment 2026 Apply Online For 195 Post']
+2026-07-22 20:51:11,372 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-22 20:51:31,938 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-22 20:51:31,938 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-22 20:51:31,938 [INFO] ============================================================
+2026-07-22 20:51:31,938 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-22 20:51:31,938 [INFO] ============================================================
+

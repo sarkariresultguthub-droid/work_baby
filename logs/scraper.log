@@ -8139,3 +8139,47 @@
 2026-07-22 10:10:23,260 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-22 10:10:23,260 [INFO] ============================================================
 
+2026-07-22 16:08:18,041 [INFO] 
+============================================================
+2026-07-22 16:08:18,041 [INFO] 🔍 [run_once] Check started at 2026-07-22T16:08:18.041578Z
+2026-07-22 16:08:18,041 [INFO] ============================================================
+2026-07-22 16:08:18,041 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-22 16:09:28,286 [WARNING] Attempt 1: https://www.sarkariresult.com/latestjob/ error — HTTPConnectionPool(host='api.scraperapi.com', port=80): Read timed out. (read timeout=70)
+2026-07-22 16:09:28,286 [INFO] Waiting 6.0s before retry...
+2026-07-22 16:10:44,404 [WARNING] Attempt 2: https://www.sarkariresult.com/latestjob/ error — HTTPConnectionPool(host='api.scraperapi.com', port=80): Read timed out. (read timeout=70)
+2026-07-22 16:10:44,404 [INFO] Waiting 9.6s before retry...
+2026-07-22 16:12:04,159 [WARNING] Attempt 3: https://www.sarkariresult.com/latestjob/ error — HTTPConnectionPool(host='api.scraperapi.com', port=80): Read timed out. (read timeout=70)
+2026-07-22 16:12:04,159 [INFO] Waiting 19.8s before retry...
+2026-07-22 16:15:53,438 [WARNING] Attempt 4: https://www.sarkariresult.com/latestjob/ error — HTTPConnectionPool(host='api.scraperapi.com', port=80): Read timed out.
+2026-07-22 16:15:53,438 [INFO] Waiting 19.5s before retry...
+2026-07-22 16:16:12,980 [ERROR] Failed to fetch after 4 attempts: https://www.sarkariresult.com/latestjob/
+2026-07-22 16:16:12,981 [ERROR] [SarkariResult] [Latest Job] Fetch failed.
+2026-07-22 16:16:12,981 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-22 16:16:12,981 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-22 16:17:14,559 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-22 16:17:14,560 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-22 16:17:14,560 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-22 16:17:41,048 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-22 16:17:41,049 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-22 16:17:41,049 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-22 16:17:47,070 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-22 16:17:47,071 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-22 16:17:47,071 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-22 16:18:09,788 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-22 16:18:09,788 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-22 16:18:09,788 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-22 16:18:22,772 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-22 16:18:22,772 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-22 16:18:22,772 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-22 16:18:28,332 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-22 16:18:28,332 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-22 16:18:28,332 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-22 16:18:31,225 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-22 16:18:31,225 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-22 16:18:31,225 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-22 16:18:34,256 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-22 16:18:34,256 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-22 16:18:34,256 [INFO] ============================================================
+2026-07-22 16:18:34,256 [INFO] ✅ [run_once] Check complete. any_new_post=False
+2026-07-22 16:18:34,256 [INFO] ============================================================
+

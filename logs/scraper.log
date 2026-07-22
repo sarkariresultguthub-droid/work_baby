@@ -8074,3 +8074,68 @@
 2026-07-22 00:09:37,332 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-22 00:09:37,332 [INFO] ============================================================
 
+2026-07-22 10:07:56,319 [INFO] 
+============================================================
+2026-07-22 10:07:56,319 [INFO] 🔍 [run_once] Check started at 2026-07-22T10:07:56.319728Z
+2026-07-22 10:07:56,319 [INFO] ============================================================
+2026-07-22 10:07:56,319 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-22 10:08:00,308 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-22 10:08:10,734 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-22/Latest Job/
+2026-07-22 10:08:11,129 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-22 10:08:11,130 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-07-22/Latest Job
+2026-07-22 10:08:17,092 [INFO] Formatted via: groq — RPSC Physiotherapist Recruitment 2026 Government Job in Rajasthan Apply Now
+2026-07-22 10:08:17,743 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 10:08:17,743 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 10:08:24,318 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 10:08:24,318 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 10:08:30,828 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 10:08:34,829 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-22 10:08:34,830 [INFO] 📝 [Latest Job] Format+Publish: 0/1 drafts saved. Failed: ['Rajasthan RPSC Physiotherapist (NSA) Recruitment 2026 Apply Online']
+2026-07-22 10:08:34,830 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-22 10:08:39,167 [INFO] [SarkariResult] [Admit Card] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-22 10:08:43,721 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-22/Admit Card/
+2026-07-22 10:08:44,049 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-22 10:08:44,050 [INFO] ✅ [SarkariResult] [Admit Card] 1 naye posts saved -> data/2026-07-22/Admit Card
+2026-07-22 10:08:49,985 [INFO] Formatted via: groq — SSC Delhi Police Head Constable Ministerial Recruitment 2025 Admit Card India 2026 Apply Now
+2026-07-22 10:08:51,061 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-22 10:08:51,062 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 10:08:58,658 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-22 10:08:58,658 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 10:09:05,540 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 10:09:09,541 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-22 10:09:09,541 [INFO] 📝 [Admit Card] Format+Publish: 0/1 drafts saved. Failed: ['SSC Delhi Police Head Constable Ministerial Recruitment 2025 Result, Marks, Final Answer Key, Additional Result 2026 for 509 Post']
+2026-07-22 10:09:09,542 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-22 10:09:16,480 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-22 10:09:16,481 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-22 10:09:16,481 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-22 10:09:21,614 [INFO] [SarkariResult] [Answer Key] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-22 10:09:26,673 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-22/Answer Key/
+2026-07-22 10:09:27,001 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-22 10:09:27,002 [INFO] ✅ [SarkariResult] [Answer Key] 1 naye posts saved -> data/2026-07-22/Answer Key
+2026-07-22 10:09:33,165 [INFO] Formatted via: groq — UPSC CPF AC Assistant Commandant Answer Key 2026 Government Jobs India Apply Now
+2026-07-22 10:09:33,880 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 10:09:33,880 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 10:09:40,383 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 10:09:40,383 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-22 10:09:47,095 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-22 10:09:51,096 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-22 10:09:51,097 [INFO] 📝 [Answer Key] Format+Publish: 0/1 drafts saved. Failed: ['UPSC Combined Central Armed Police Force CAPF Recruitment 2026 Answer Key']
+2026-07-22 10:09:51,097 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-22 10:09:54,194 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-22 10:09:54,194 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-22 10:09:54,194 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-22 10:10:00,766 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-22 10:10:00,767 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-22 10:10:00,767 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-22 10:10:07,151 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-22 10:10:07,151 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-22 10:10:07,151 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-22 10:10:16,163 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-22 10:10:16,164 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-22 10:10:16,164 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-22 10:10:23,260 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-22 10:10:23,260 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-22 10:10:23,260 [INFO] ============================================================
+2026-07-22 10:10:23,260 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-22 10:10:23,260 [INFO] ============================================================
+

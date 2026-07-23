@@ -8351,3 +8351,59 @@
 2026-07-23 10:06:40,274 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-23 10:06:40,274 [INFO] ============================================================
 
+2026-07-23 16:16:40,581 [INFO] 
+============================================================
+2026-07-23 16:16:40,581 [INFO] 🔍 [run_once] Check started at 2026-07-23T16:16:40.581816Z
+2026-07-23 16:16:40,581 [INFO] ============================================================
+2026-07-23 16:16:40,581 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-23 16:16:48,295 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-23 16:16:54,689 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-23/Latest Job/
+2026-07-23 16:16:55,110 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-23 16:16:55,111 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-07-23/Latest Job
+2026-07-23 16:17:04,871 [INFO] Formatted via: groq — SAIL Rourkela Apprentices Online Form 2026 | Government Jobs | India | Apply Now
+2026-07-23 16:17:05,981 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-23 16:17:05,981 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-23 16:17:12,566 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-23 16:17:12,566 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-23 16:17:19,744 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-23 16:17:23,745 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-23 16:17:23,746 [INFO] 📝 [Latest Job] Format+Publish: 0/1 drafts saved. Failed: ['SAIL Rourkela Steel Plant Apprentice 2026 Apply Online for 1110 Post']
+2026-07-23 16:17:23,746 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-23 16:17:29,468 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-23 16:17:29,469 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-23 16:17:29,469 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-23 16:17:49,762 [INFO] [SarkariResult] [Results] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-23 16:17:58,054 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-23/Results/
+2026-07-23 16:17:58,462 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-23 16:17:58,463 [INFO] ✅ [SarkariResult] [Results] 1 naye posts saved -> data/2026-07-23/Results
+2026-07-23 16:17:58,596 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-23 16:18:06,367 [INFO] Formatted via: groq — MP Anganwadi Worker, Helper Recruitment 2026 Madhya Pradesh Government Jobs Apply Now
+2026-07-23 16:18:09,109 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-23 16:18:09,109 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-23 16:18:17,292 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-23 16:18:17,292 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-23 16:18:25,390 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-23 16:18:29,391 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-23 16:18:29,392 [INFO] 📝 [Results] Format+Publish: 0/1 drafts saved. Failed: ['MP Madhya Pradesh Anganwadi Worker, Helper Bharti Recruitment 2026 Merit List']
+2026-07-23 16:18:29,392 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-23 16:18:31,890 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-23 16:18:31,891 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-23 16:18:31,891 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-23 16:18:33,742 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-23 16:18:33,742 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-23 16:18:33,742 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-23 16:18:39,664 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-23 16:18:39,665 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-23 16:18:39,665 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-23 16:18:41,987 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-23 16:18:41,987 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-23 16:18:41,987 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-23 16:18:43,321 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-23 16:18:43,321 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-23 16:18:43,321 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-23 16:18:46,752 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-23 16:18:46,752 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-23 16:18:46,752 [INFO] ============================================================
+2026-07-23 16:18:46,752 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-23 16:18:46,752 [INFO] ============================================================
+

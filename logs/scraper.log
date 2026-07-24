@@ -8607,3 +8607,48 @@
 2026-07-24 15:22:26,545 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-24 15:22:26,545 [INFO] ============================================================
 
+2026-07-24 20:46:50,394 [INFO] 
+============================================================
+2026-07-24 20:46:50,394 [INFO] 🔍 [run_once] Check started at 2026-07-24T20:46:50.394266Z
+2026-07-24 20:46:50,394 [INFO] ============================================================
+2026-07-24 20:46:50,394 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-24 20:46:54,187 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-24 20:46:54,190 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-24 20:46:54,190 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-24 20:46:59,160 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-24 20:46:59,161 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-24 20:46:59,161 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-24 20:47:03,601 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-24 20:47:03,603 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-24 20:47:03,603 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-24 20:47:08,120 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-24 20:47:08,121 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-24 20:47:08,121 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-24 20:47:09,596 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-24 20:47:09,596 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-24 20:47:09,596 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-24 20:47:17,063 [INFO] [SarkariResult] [Admission] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-24 20:47:20,621 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-24/Admission/
+2026-07-24 20:47:20,975 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-24 20:47:20,976 [INFO] ✅ [SarkariResult] [Admission] 1 naye posts saved -> data/2026-07-24/Admission
+2026-07-24 20:47:26,582 [INFO] Formatted via: groq — UP Scholarship Online Form 2026-2027 + Government Funding + Uttar Pradesh + Apply Now
+2026-07-24 20:47:27,573 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-24 20:47:27,573 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 20:47:34,216 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-24 20:47:34,216 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 20:47:41,004 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-24 20:47:45,005 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-24 20:47:45,006 [INFO] 📝 [Admission] Format+Publish: 0/1 drafts saved. Failed: ['UP SCHOLARSHIP PREMATRIC AND POST MATRICS 9&10 11 & 12 AND OTHER COURSES BA BSC MSC BED BTC ONLINE FORM 2026']
+2026-07-24 20:47:45,006 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-24 20:47:48,683 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-24 20:47:48,684 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-24 20:47:48,684 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-24 20:47:50,837 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-24 20:47:50,838 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-24 20:47:50,838 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-24 20:47:54,102 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-24 20:47:54,102 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-24 20:47:54,102 [INFO] ============================================================
+2026-07-24 20:47:54,102 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-24 20:47:54,102 [INFO] ============================================================
+

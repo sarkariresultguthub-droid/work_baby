@@ -8535,3 +8535,75 @@
 2026-07-24 09:44:38,320 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-24 09:44:38,321 [INFO] ============================================================
 
+2026-07-24 15:18:24,267 [INFO] 
+============================================================
+2026-07-24 15:18:24,267 [INFO] 🔍 [run_once] Check started at 2026-07-24T15:18:24.267784Z
+2026-07-24 15:18:24,267 [INFO] ============================================================
+2026-07-24 15:18:24,267 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-24 15:18:44,919 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-24 15:18:44,921 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-24 15:18:44,921 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-24 15:18:52,754 [INFO] [SarkariResult] [Admit Card] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-24 15:19:10,946 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-24/Admit Card/
+2026-07-24 15:19:11,268 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-24 15:19:11,269 [INFO] ✅ [SarkariResult] [Admit Card] 1 naye posts saved -> data/2026-07-24/Admit Card
+2026-07-24 15:19:18,250 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 302 (char 921)
+2026-07-24 15:19:18,250 [INFO] Formatted via: template — UPSC Combined Medical Services CMS Examination 2026 Admit Card
+2026-07-24 15:19:18,839 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-24 15:19:18,839 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 15:19:26,136 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-24 15:19:26,136 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 15:19:32,631 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-24 15:19:36,633 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-24 15:19:36,633 [INFO] 📝 [Admit Card] Format+Publish: 0/1 drafts saved. Failed: ['UPSC Combined Medical Services CMS Examination 2026 Admit Card']
+2026-07-24 15:19:36,634 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-24 15:19:46,412 [INFO] [SarkariResult] [Results] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-07-24 15:19:58,853 [INFO] [SarkariResult] 2 posts saved -> data/2026-07-24/Results/
+2026-07-24 15:19:59,148 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-24 15:19:59,149 [INFO] ✅ [SarkariResult] [Results] 2 naye posts saved -> data/2026-07-24/Results
+2026-07-24 15:20:06,286 [INFO] Formatted via: groq — Haryana HSSC Primary Teacher PRT Recruitment 2024 Results
+2026-07-24 15:20:06,760 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-24 15:20:06,760 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 15:20:13,974 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-24 15:20:13,974 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 15:20:20,933 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-24 15:20:30,469 [INFO] Formatted via: groq — MPESB ITI Training Officer Recruitment 2026 Government Jobs in Madhya Pradesh Apply Now
+2026-07-24 15:20:31,285 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-24 15:20:31,286 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 15:20:38,169 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-24 15:20:38,169 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 15:20:44,678 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-24 15:20:48,679 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-07-24 15:20:48,679 [INFO] 📝 [Results] Format+Publish: 0/2 drafts saved. Failed: ['Haryana HSSC Primary Teacher PRT Recruitment 2024 Download Result 2026', 'MPESB MP ITI Training Officer Recruitment 2026 Download Result for 1120 Post']
+2026-07-24 15:20:48,680 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-24 15:21:00,203 [INFO] [SarkariResult] [Answer Key] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-24 15:21:15,384 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-24/Answer Key/
+2026-07-24 15:21:15,691 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-24 15:21:15,692 [INFO] ✅ [SarkariResult] [Answer Key] 1 naye posts saved -> data/2026-07-24/Answer Key
+2026-07-24 15:21:22,069 [INFO] Formatted via: groq — RSSB LDC / Junior Assistant Recruitment 2026 Government Jobs in Rajasthan Apply Now
+2026-07-24 15:21:23,031 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-24 15:21:23,031 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 15:21:29,929 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-24 15:21:29,929 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-24 15:21:37,031 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-24 15:21:41,032 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-24 15:21:41,033 [INFO] 📝 [Answer Key] Format+Publish: 0/1 drafts saved. Failed: ['Rajasthan Staff Selection Board RSSB LDC / Junior Assistant Recruitment 2026 Primary Answer Key']
+2026-07-24 15:21:41,033 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-24 15:21:43,907 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-24 15:21:43,907 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-24 15:21:43,907 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-24 15:21:53,284 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-24 15:21:53,285 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-24 15:21:53,285 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-24 15:22:21,471 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-24 15:22:21,471 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-24 15:22:21,471 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-24 15:22:24,115 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-24 15:22:24,115 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-24 15:22:24,115 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-24 15:22:26,545 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-24 15:22:26,545 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-24 15:22:26,545 [INFO] ============================================================
+2026-07-24 15:22:26,545 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-24 15:22:26,545 [INFO] ============================================================
+

@@ -1,22 +1,26 @@
 {
   "repo": "sarkariresultguthub-droid/work_baby",
-  "generated_at_utc": "2026-07-24T09:44:38.478437+00:00",
+  "generated_at_utc": "2026-07-24T15:22:26.747453+00:00",
   "date": "2026-07-24",
   "runs": {
-    "total_runs_today": 2,
-    "success": 1,
+    "total_runs_today": 3,
+    "success": 2,
     "failed": 0,
     "other": 1,
     "run_times_utc": [
       "2026-07-24T00:14:29Z",
-      "2026-07-24T09:41:57Z"
+      "2026-07-24T09:41:57Z",
+      "2026-07-24T15:18:14Z"
     ],
-    "last_run_utc": "2026-07-24T09:41:57Z"
+    "last_run_utc": "2026-07-24T15:18:14Z"
   },
   "scraped": {
-    "total_files": 3,
+    "total_files": 7,
     "by_category": {
-      "Latest Job": 3
+      "Admit Card": 1,
+      "Answer Key": 1,
+      "Latest Job": 3,
+      "Results": 2
     }
   }
 }

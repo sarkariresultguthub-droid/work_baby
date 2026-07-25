@@ -8652,3 +8652,58 @@
 2026-07-24 20:47:54,102 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-24 20:47:54,102 [INFO] ============================================================
 
+2026-07-25 06:05:59,531 [INFO] 
+============================================================
+2026-07-25 06:05:59,531 [INFO] 🔍 [run_once] Check started at 2026-07-25T06:05:59.531313Z
+2026-07-25 06:05:59,531 [INFO] ============================================================
+2026-07-25 06:05:59,531 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-25 06:06:03,506 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-25 06:06:03,507 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-25 06:06:03,507 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-25 06:06:08,827 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-25 06:06:08,828 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-25 06:06:08,828 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-25 06:06:18,375 [INFO] [SarkariResult] [Results] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-25 06:06:21,234 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-25/Results/
+2026-07-25 06:06:21,537 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-25 06:06:21,538 [INFO] ✅ [SarkariResult] [Results] 1 naye posts saved -> data/2026-07-25/Results
+2026-07-25 06:06:27,775 [INFO] Formatted via: groq — Union Bank of India UBI Apprentices Recruitment 2026 Government Jobs India Apply Now
+2026-07-25 06:06:29,127 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-25 06:06:29,127 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-25 06:06:36,417 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-25 06:06:36,417 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-25 06:06:43,671 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-25 06:06:47,672 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-25 06:06:47,673 [INFO] 📝 [Results] Format+Publish: 0/1 drafts saved. Failed: ['Union Bank of India UBI Apprentices Recruitment 2026 Download Result']
+2026-07-25 06:06:47,673 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-25 06:06:49,767 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-25 06:06:49,768 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-25 06:06:49,768 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-25 06:06:55,806 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-25 06:06:55,806 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-25 06:06:55,806 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-25 06:07:06,229 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-25 06:07:06,229 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-25 06:07:06,229 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-25 06:07:11,464 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-25 06:07:11,464 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-25 06:07:11,465 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-25 06:07:17,623 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-25 06:07:20,824 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-25/Outsourcing Offline Jobs/
+2026-07-25 06:07:21,098 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-25 06:07:21,099 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 1 naye posts saved -> data/2026-07-25/Outsourcing Offline Jobs
+2026-07-25 06:07:27,222 [INFO] Formatted via: groq — Kasturba Gandhi Balika Vidyalaya Recruitment 2026 Government Jobs India Apply Offline
+2026-07-25 06:07:28,083 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-25 06:07:28,084 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-25 06:07:34,776 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-25 06:07:34,776 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-25 06:07:41,371 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-25 06:07:45,372 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-25 06:07:45,373 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/1 drafts saved. Failed: ['Kasturba Gandhi Balika Vidyalaya (KGBV) Ambedkar NagarApplication Form2026 Apply Offline']
+2026-07-25 06:07:45,373 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-25 06:07:47,977 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-25 06:07:47,977 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-25 06:07:47,977 [INFO] ============================================================
+2026-07-25 06:07:47,977 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-25 06:07:47,977 [INFO] ============================================================
+

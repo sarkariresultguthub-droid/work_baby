@@ -8938,3 +8938,88 @@
 2026-07-26 11:51:28,595 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-26 11:51:28,595 [INFO] ============================================================
 
+2026-07-26 15:47:18,795 [INFO] 
+============================================================
+2026-07-26 15:47:18,795 [INFO] 🔍 [run_once] Check started at 2026-07-26T15:47:18.795534Z
+2026-07-26 15:47:18,795 [INFO] ============================================================
+2026-07-26 15:47:18,795 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-26 15:47:24,083 [INFO] [SarkariResult] [Latest Job] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-07-26 15:47:31,397 [INFO] [SarkariResult] 2 posts saved -> data/2026-07-26/Latest Job/
+2026-07-26 15:47:31,793 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-26 15:47:31,794 [INFO] ✅ [SarkariResult] [Latest Job] 2 naye posts saved -> data/2026-07-26/Latest Job
+2026-07-26 15:47:38,407 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 316 (char 987)
+2026-07-26 15:47:38,408 [INFO] Formatted via: template — Chhattisgarh State Eligibility Test SET Online Form 2026
+2026-07-26 15:47:39,487 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-26 15:47:39,487 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-26 15:47:46,432 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-26 15:47:46,432 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-26 15:47:53,357 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-26 15:47:58,136 [WARNING] Groq key #1 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwey1bfmegvt9s5wr8xytz6b` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:47:58,461 [WARNING] Groq key #2 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqed857f9jry2x6kj0gy457` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:47:58,751 [WARNING] Groq key #3 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqeyrx8f1k9ks5706p1bwaz` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:47:59,502 [WARNING] Groq key #4 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqex7p8ec894q6ejak3htgn` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:00,019 [WARNING] Groq key #5 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqetz7efmzsj6vtskz5jar3` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:00,366 [WARNING] Groq key #6 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqes84xf7gb8e22pkd6q08d` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:01,139 [WARNING] Groq key #7 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqeqn1tesbaytx3egb480hf` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:01,495 [WARNING] Groq key #8 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kqfteveee3yvmxtf95wxx8s6` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:01,964 [WARNING] Groq key #9 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwey1bfmegvt9s5wr8xytz6b` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:02,598 [WARNING] Groq key #10 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqebrhqebavrzy5b26zvyq1` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:02,952 [WARNING] Groq key #11 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqecjqjesqvy41cdh6d3jyw` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:03,218 [WARNING] Groq key #12 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqehz6ff98sw4jz3pqt7zwr` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:03,479 [WARNING] Groq key #13 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqefea1fexs3ga1b8j1hne4` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:03,795 [WARNING] Groq key #14 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqefea1fexs3ga1b8j1hne4` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-26 15:48:03,795 [ERROR] Saari Groq keys fail ho gayin — template fallback use ho raha hai.
+2026-07-26 15:48:03,796 [INFO] Formatted via: template — JNU Jawaharlal Nehru University Non Teaching Post Group A, B & C Recruitment 2026 Apply Online for 267 Post
+2026-07-26 15:48:04,508 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-26 15:48:04,508 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-26 15:48:11,195 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-26 15:48:11,195 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-26 15:48:17,914 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-26 15:48:21,914 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-07-26 15:48:21,915 [INFO] 📝 [Latest Job] Format+Publish: 0/2 drafts saved. Failed: ['Chhattisgarh State Eligibility Test SET Online Form 2026', 'JNU Jawaharlal Nehru University Non Teaching Post Group A, B & C Recruitment 2026 Apply Online for 267 Post']
+2026-07-26 15:48:21,915 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-26 15:48:26,931 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-26 15:48:26,932 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-26 15:48:26,932 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-26 15:48:31,330 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-26 15:48:31,331 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-26 15:48:31,331 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-26 15:48:36,567 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-26 15:48:36,568 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-26 15:48:36,568 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-26 15:48:43,015 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-26 15:48:43,015 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-26 15:48:43,016 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-26 15:48:45,040 [INFO] [SarkariResult] [Admission] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-07-26 15:49:08,236 [INFO] [SarkariResult] 2 posts saved -> data/2026-07-26/Admission/
+2026-07-26 15:49:08,612 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-26 15:49:08,613 [INFO] ✅ [SarkariResult] [Admission] 2 naye posts saved -> data/2026-07-26/Admission
+2026-07-26 15:49:14,749 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 218 (char 764)
+2026-07-26 15:49:14,749 [INFO] Formatted via: template — CLAT Common Law Admission Test Apply Online Form 2026
+2026-07-26 15:49:15,761 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-26 15:49:15,761 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-26 15:49:22,711 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-26 15:49:22,711 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-26 15:49:29,681 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-26 15:49:39,555 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 198 (char 702)
+2026-07-26 15:49:39,555 [INFO] Formatted via: template — IIM Common Admission Test CAT Admission Apply Online Form 2026
+2026-07-26 15:49:40,540 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-26 15:49:40,540 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-26 15:49:47,525 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-26 15:49:47,525 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-26 15:49:54,077 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-26 15:49:58,078 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-07-26 15:49:58,079 [INFO] 📝 [Admission] Format+Publish: 0/2 drafts saved. Failed: ['CLAT Common Law Admission Test Apply Online Form 2026', 'IIM Common Admission Test CAT Admission Apply Online Form 2026']
+2026-07-26 15:49:58,079 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-26 15:50:00,668 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-26 15:50:00,668 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-26 15:50:00,669 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-26 15:50:02,980 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-26 15:50:02,980 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-26 15:50:02,980 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-26 15:50:05,047 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-26 15:50:05,047 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-26 15:50:05,047 [INFO] ============================================================
+2026-07-26 15:50:05,048 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-26 15:50:05,048 [INFO] ============================================================
+

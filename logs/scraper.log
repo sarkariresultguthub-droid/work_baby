@@ -9023,3 +9023,40 @@
 2026-07-26 15:50:05,048 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-26 15:50:05,048 [INFO] ============================================================
 
+2026-07-26 20:16:24,343 [INFO] 
+============================================================
+2026-07-26 20:16:24,343 [INFO] 🔍 [run_once] Check started at 2026-07-26T20:16:24.343410Z
+2026-07-26 20:16:24,343 [INFO] ============================================================
+2026-07-26 20:16:24,343 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-26 20:16:51,316 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-26 20:16:51,317 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-26 20:16:51,317 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-26 20:17:01,398 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-26 20:17:01,400 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-26 20:17:01,400 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-26 20:17:16,736 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-26 20:17:16,737 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-26 20:17:16,737 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-26 20:17:31,576 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-26 20:17:31,576 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-26 20:17:31,576 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-26 20:18:41,708 [WARNING] Attempt 1: https://www.sarkariresult.com/syllabus/ error — HTTPConnectionPool(host='api.scraperapi.com', port=80): Read timed out. (read timeout=70)
+2026-07-26 20:18:41,708 [INFO] Waiting 3.9s before retry...
+2026-07-26 20:18:49,582 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-26 20:18:49,583 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-26 20:18:49,583 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-26 20:18:59,346 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-26 20:18:59,346 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-26 20:18:59,346 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-26 20:19:10,322 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-26 20:19:10,322 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-26 20:19:10,322 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-26 20:19:13,091 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-26 20:19:13,091 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-26 20:19:13,091 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-26 20:19:16,164 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-26 20:19:16,164 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-26 20:19:16,164 [INFO] ============================================================
+2026-07-26 20:19:16,164 [INFO] ✅ [run_once] Check complete. any_new_post=False
+2026-07-26 20:19:16,164 [INFO] ============================================================
+

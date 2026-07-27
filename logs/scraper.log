@@ -9095,3 +9095,83 @@
 2026-07-27 10:52:21,288 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-27 10:52:21,288 [INFO] ============================================================
 
+2026-07-27 17:20:52,877 [INFO] 
+============================================================
+2026-07-27 17:20:52,877 [INFO] 🔍 [run_once] Check started at 2026-07-27T17:20:52.877187Z
+2026-07-27 17:20:52,877 [INFO] ============================================================
+2026-07-27 17:20:52,877 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-27 17:20:57,050 [INFO] [SarkariResult] [Latest Job] ✅ 3 NAYA post mila! Full data fetch kar raha hun...
+2026-07-27 17:21:11,489 [INFO] [SarkariResult] 3 posts saved -> data/2026-07-27/Latest Job/
+2026-07-27 17:21:12,009 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-27 17:21:12,010 [INFO] ✅ [SarkariResult] [Latest Job] 3 naye posts saved -> data/2026-07-27/Latest Job
+2026-07-27 17:21:17,745 [INFO] Formatted via: groq — IBPS Clerk CRP CSA 16th Recruitment 2026 in India - Apply Now
+2026-07-27 17:21:18,697 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:21:18,697 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:21:25,363 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:21:25,363 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:21:31,960 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:21:36,036 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-27 17:21:41,780 [INFO] Formatted via: groq — ISRO Various Post Recruitment 2026 Government Jobs in India Apply Now
+2026-07-27 17:21:42,505 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:21:42,505 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:21:49,115 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:21:49,115 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:21:55,704 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:22:06,525 [INFO] Formatted via: groq — UPSSSC Forensic Science Laboratory Online Form 2026 | Government Job in India | Apply Now
+2026-07-27 17:22:07,131 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:22:07,131 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:22:13,734 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:22:13,735 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:22:20,416 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:22:24,417 [INFO] 📊 Format+Publish summary: 3/3 formatted, 0/3 published as draft.
+2026-07-27 17:22:24,418 [INFO] 📝 [Latest Job] Format+Publish: 0/3 drafts saved. Failed: ['IBPS Clerk CRP XVI 16th Recruitment 2026 Apply Online', 'ISRO Various Post Recruitment 2026 Apply Online', 'UPSSSC Forensic Science Laboratory Main Examination 2026 Apply Online for 208 Post']
+2026-07-27 17:22:24,418 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-27 17:22:35,387 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-27 17:22:35,388 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-27 17:22:35,388 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-27 17:22:41,182 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-27 17:22:41,183 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-27 17:22:41,183 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-27 17:22:45,217 [INFO] [SarkariResult] [Answer Key] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-27 17:22:53,096 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-27/Answer Key/
+2026-07-27 17:22:53,553 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-27 17:22:53,553 [INFO] ✅ [SarkariResult] [Answer Key] 1 naye posts saved -> data/2026-07-27/Answer Key
+2026-07-27 17:23:01,361 [INFO] Formatted via: groq — UPSSSC Assistant Statistical Officer ASO Recruitment 2026 Answer Key
+2026-07-27 17:23:02,017 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:23:02,017 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:23:08,636 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:23:08,636 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:23:15,247 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:23:19,248 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-27 17:23:19,249 [INFO] 📝 [Answer Key] Format+Publish: 0/1 drafts saved. Failed: ['UPSSSC UP Assistant Statistical Officer ASO Recruitment 2026 Answer Key Advt. No. 05-Exam/2026']
+2026-07-27 17:23:19,249 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-27 17:23:20,348 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-27 17:23:20,348 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-27 17:23:20,348 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-27 17:23:26,453 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-27 17:23:26,454 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-27 17:23:26,454 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-27 17:23:29,158 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-27 17:23:29,158 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-27 17:23:29,158 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-27 17:23:31,486 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-27 17:23:42,166 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-27/Outsourcing Offline Jobs/
+2026-07-27 17:23:42,644 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-27 17:23:42,645 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 1 naye posts saved -> data/2026-07-27/Outsourcing Offline Jobs
+2026-07-27 17:23:48,081 [INFO] Formatted via: groq — UP Maharajganj ECCE Educator Recruitment 2026 in **India** - Apply Now
+2026-07-27 17:23:48,813 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:23:48,813 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:23:55,407 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:23:55,407 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-27 17:24:02,126 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-27 17:24:06,127 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-27 17:24:06,128 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/1 drafts saved. Failed: ['Uttar Pradesh UP Basic Education Maharajganj ECCE Educator Outsourcing Recruitment 2026 Apply Online For 140 Post']
+2026-07-27 17:24:06,128 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-27 17:25:02,360 [WARNING] Attempt 1: https://www.sarkariresult.com/important/ returned 500
+2026-07-27 17:25:02,360 [INFO] Waiting 3.7s before retry...
+2026-07-27 17:25:26,287 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-27 17:25:26,287 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-27 17:25:26,288 [INFO] ============================================================
+2026-07-27 17:25:26,288 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-27 17:25:26,288 [INFO] ============================================================
+

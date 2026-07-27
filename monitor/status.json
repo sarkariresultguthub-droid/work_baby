@@ -1,24 +1,25 @@
 {
   "repo": "sarkariresultguthub-droid/work_baby",
-  "generated_at_utc": "2026-07-27T17:25:26.438037+00:00",
+  "generated_at_utc": "2026-07-27T21:50:59.739447+00:00",
   "date": "2026-07-27",
   "runs": {
-    "total_runs_today": 2,
-    "success": 1,
+    "total_runs_today": 3,
+    "success": 2,
     "failed": 0,
     "other": 1,
     "run_times_utc": [
       "2026-07-27T10:51:18Z",
-      "2026-07-27T17:20:38Z"
+      "2026-07-27T17:20:38Z",
+      "2026-07-27T21:49:12Z"
     ],
-    "last_run_utc": "2026-07-27T17:20:38Z"
+    "last_run_utc": "2026-07-27T21:49:12Z"
   },
   "scraped": {
-    "total_files": 5,
+    "total_files": 6,
     "by_category": {
       "Answer Key": 1,
       "Latest Job": 3,
-      "Outsourcing Offline Jobs": 1
+      "Outsourcing Offline Jobs": 2
     }
   }
 }

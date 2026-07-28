@@ -9241,3 +9241,73 @@
 2026-07-27 21:50:59,577 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-27 21:50:59,577 [INFO] ============================================================
 
+2026-07-28 07:47:59,877 [INFO] 
+============================================================
+2026-07-28 07:47:59,877 [INFO] 🔍 [run_once] Check started at 2026-07-28T07:47:59.877316Z
+2026-07-28 07:47:59,877 [INFO] ============================================================
+2026-07-28 07:47:59,877 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-28 07:48:07,460 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-28 07:48:10,519 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-28/Latest Job/
+2026-07-28 07:48:10,878 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-28 07:48:10,879 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-07-28/Latest Job
+2026-07-28 07:48:11,013 [WARNING] Groq key #1 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwey1bfmegvt9s5wr8xytz6b` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,079 [WARNING] Groq key #2 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqed857f9jry2x6kj0gy457` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,145 [WARNING] Groq key #3 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqeyrx8f1k9ks5706p1bwaz` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,210 [WARNING] Groq key #4 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqex7p8ec894q6ejak3htgn` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,269 [WARNING] Groq key #5 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqetz7efmzsj6vtskz5jar3` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,370 [WARNING] Groq key #6 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqes84xf7gb8e22pkd6q08d` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,437 [WARNING] Groq key #7 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqeqn1tesbaytx3egb480hf` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,502 [WARNING] Groq key #8 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kqfteveee3yvmxtf95wxx8s6` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,603 [WARNING] Groq key #9 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwey1bfmegvt9s5wr8xytz6b` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,680 [WARNING] Groq key #10 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqebrhqebavrzy5b26zvyq1` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,746 [WARNING] Groq key #11 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqecjqjesqvy41cdh6d3jyw` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,817 [WARNING] Groq key #12 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqehz6ff98sw4jz3pqt7zwr` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,880 [WARNING] Groq key #13 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqefea1fexs3ga1b8j1hne4` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,984 [WARNING] Groq key #14 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqefea1fexs3ga1b8j1hne4` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 07:48:11,984 [ERROR] Saari Groq keys fail ho gayin — template fallback use ho raha hai.
+2026-07-28 07:48:11,986 [INFO] Formatted via: template — LSG Rajasthan Safai Karamchari Recruitment 2026 Apply Online for
+2026-07-28 07:48:13,711 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 07:48:13,711 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 07:48:21,342 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 07:48:21,342 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 07:48:27,976 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 07:48:31,978 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-28 07:48:31,978 [INFO] 📝 [Latest Job] Format+Publish: 0/1 drafts saved. Failed: ['LSG Rajasthan Safai Karamchari Recruitment 2026 Apply Online for']
+2026-07-28 07:48:31,978 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-28 07:48:36,426 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-28 07:48:36,427 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-28 07:48:36,428 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-28 07:48:41,465 [INFO] [SarkariResult] [Results] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-28 07:48:43,747 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-28/Results/
+2026-07-28 07:48:44,073 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-28 07:48:44,074 [INFO] ✅ [SarkariResult] [Results] 1 naye posts saved -> data/2026-07-28/Results
+2026-07-28 07:48:49,976 [INFO] Formatted via: groq — Central Bank of India CBI Apprentice Result 2026 - Apply Now
+2026-07-28 07:48:50,551 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 07:48:50,552 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 07:48:57,151 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 07:48:57,152 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 07:49:03,748 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 07:49:07,749 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-28 07:49:07,749 [INFO] 📝 [Results] Format+Publish: 0/1 drafts saved. Failed: ['Central Bank of India (CBI) Apprentice Recruitment 2026 Result']
+2026-07-28 07:49:07,749 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-28 07:49:09,670 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-28 07:49:09,671 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-28 07:49:09,671 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-28 07:49:12,187 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-28 07:49:12,187 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-28 07:49:12,187 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-28 07:49:14,070 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-28 07:49:14,070 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-28 07:49:14,071 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-28 07:49:15,762 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-28 07:49:15,762 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-28 07:49:15,762 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-28 07:49:26,595 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-28 07:49:26,596 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-28 07:49:26,596 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-28 07:49:28,019 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-28 07:49:28,019 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-28 07:49:28,019 [INFO] ============================================================
+2026-07-28 07:49:28,019 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-28 07:49:28,019 [INFO] ============================================================
+

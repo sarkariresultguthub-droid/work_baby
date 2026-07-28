@@ -9392,3 +9392,80 @@
 2026-07-28 15:58:23,437 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-28 15:58:23,437 [INFO] ============================================================
 
+2026-07-28 20:37:27,177 [INFO] 
+============================================================
+2026-07-28 20:37:27,177 [INFO] 🔍 [run_once] Check started at 2026-07-28T20:37:27.177693Z
+2026-07-28 20:37:27,177 [INFO] ============================================================
+2026-07-28 20:37:27,177 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-28 20:37:31,189 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-28 20:37:38,181 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-28/Latest Job/
+2026-07-28 20:37:38,712 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-28 20:37:38,713 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-07-28/Latest Job
+2026-07-28 20:37:44,549 [INFO] Formatted via: groq — ISRO URSC Apprentice Online Form 2026 | Government Jobs in India | Apply Now
+2026-07-28 20:37:45,830 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 20:37:45,830 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 20:37:53,070 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 20:37:53,070 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 20:38:00,327 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 20:38:04,405 [WARNING] Groq key #1 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwey1bfmegvt9s5wr8xytz6b` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:04,485 [WARNING] Groq key #2 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqed857f9jry2x6kj0gy457` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:04,563 [WARNING] Groq key #3 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqeyrx8f1k9ks5706p1bwaz` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:04,646 [WARNING] Groq key #4 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqex7p8ec894q6ejak3htgn` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:04,727 [WARNING] Groq key #5 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqetz7efmzsj6vtskz5jar3` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:04,816 [WARNING] Groq key #6 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqes84xf7gb8e22pkd6q08d` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:04,897 [WARNING] Groq key #7 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqeqn1tesbaytx3egb480hf` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:04,987 [WARNING] Groq key #8 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kqfteveee3yvmxtf95wxx8s6` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:05,070 [WARNING] Groq key #9 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwey1bfmegvt9s5wr8xytz6b` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:05,156 [WARNING] Groq key #10 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqebrhqebavrzy5b26zvyq1` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:05,239 [WARNING] Groq key #11 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqecjqjesqvy41cdh6d3jyw` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:05,326 [WARNING] Groq key #12 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqehz6ff98sw4jz3pqt7zwr` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:05,407 [WARNING] Groq key #13 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqefea1fexs3ga1b8j1hne4` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:05,489 [WARNING] Groq key #14 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqefea1fexs3ga1b8j1hne4` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-07-28 20:38:05,489 [ERROR] Saari Groq keys fail ho gayin — template fallback use ho raha hai.
+2026-07-28 20:38:05,491 [INFO] Formatted via: template — LSG Rajasthan Safai Karamchari Recruitment 2026 Apply Online for
+2026-07-28 20:38:06,665 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 20:38:06,665 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 20:38:13,438 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 20:38:13,438 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 20:38:20,226 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 20:38:24,227 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-07-28 20:38:24,227 [INFO] 📝 [Latest Job] Format+Publish: 0/2 drafts saved. Failed: ['ISRO Graduate Apprentice Trainee and Diploma Apprentice Trainee Recruitment 2026 Apply Online', 'LSG Rajasthan Safai Karamchari Recruitment 2026 Apply Online for']
+2026-07-28 20:38:24,227 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-28 20:38:29,202 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-28 20:38:29,203 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-28 20:38:29,203 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-28 20:38:38,378 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-28 20:38:38,379 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-28 20:38:38,379 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-28 20:38:40,398 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-07-28 20:38:40,398 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-07-28 20:38:40,398 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-28 20:38:46,129 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-28 20:38:46,129 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-28 20:38:46,129 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-28 20:38:52,421 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-28 20:38:52,422 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-28 20:38:52,422 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-28 20:38:57,959 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-28 20:38:57,960 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-28 20:38:57,960 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-28 20:39:01,195 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-28 20:39:04,970 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-28/Outsourcing Offline Jobs/
+2026-07-28 20:39:05,416 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-28 20:39:05,417 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 1 naye posts saved -> data/2026-07-28/Outsourcing Offline Jobs
+2026-07-28 20:39:11,042 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 221 (char 735)
+2026-07-28 20:39:11,043 [INFO] Formatted via: template — UPSRTC उत्तर प्रदेश राज्य सड़क परिवहन निगम Bus Conductor Ayodhya Outsourcing Recruitment Online Form2026
+2026-07-28 20:39:12,485 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 20:39:12,485 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 20:39:19,704 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 20:39:19,704 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 20:39:26,911 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 20:39:30,912 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-28 20:39:30,913 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/1 drafts saved. Failed: ['UPSRTC उत्तर प्रदेश राज्य सड़क परिवहन निगम Bus Conductor Ayodhya Outsourcing Recruitment Online Form2026']
+2026-07-28 20:39:30,913 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-28 20:39:36,586 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-28 20:39:36,586 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-28 20:39:36,586 [INFO] ============================================================
+2026-07-28 20:39:36,586 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-28 20:39:36,586 [INFO] ============================================================
+

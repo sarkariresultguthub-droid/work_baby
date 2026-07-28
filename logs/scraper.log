@@ -9311,3 +9311,84 @@
 2026-07-28 07:49:28,019 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-07-28 07:49:28,019 [INFO] ============================================================
 
+2026-07-28 15:54:54,325 [INFO] 
+============================================================
+2026-07-28 15:54:54,325 [INFO] 🔍 [run_once] Check started at 2026-07-28T15:54:54.325838Z
+2026-07-28 15:54:54,325 [INFO] ============================================================
+2026-07-28 15:54:54,325 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-28 15:54:58,383 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-07-28 15:54:58,385 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-07-28 15:54:58,385 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-28 15:55:04,067 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-28 15:55:04,068 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-28 15:55:04,068 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-28 15:55:12,890 [INFO] [SarkariResult] [Results] ✅ 3 NAYA post mila! Full data fetch kar raha hun...
+2026-07-28 15:55:25,122 [INFO] [SarkariResult] 3 posts saved -> data/2026-07-28/Results/
+2026-07-28 15:55:25,430 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-28 15:55:25,431 [INFO] ✅ [SarkariResult] [Results] 3 naye posts saved -> data/2026-07-28/Results
+2026-07-28 15:55:32,091 [INFO] Formatted via: groq — Central Bank of India CBI Apprentice Recruitment 2026 Result + Apply Online
+2026-07-28 15:55:32,806 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 15:55:32,806 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:55:39,273 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 15:55:39,273 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:55:45,754 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 15:55:49,847 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-28 15:55:56,719 [INFO] Formatted via: groq — Jharkhand JSSC Excise Constable Recruitment 2023 Result in Jharkhand, Apply Now
+2026-07-28 15:55:57,559 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:55:57,559 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:56:04,042 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 15:56:04,043 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:56:11,586 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:56:22,140 [INFO] Formatted via: groq — UPSSSC Pharmacist Ayurvedic Recruitment 2024 Government Jobs in India Apply Now
+2026-07-28 15:56:22,617 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 15:56:22,617 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:56:29,453 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:56:29,453 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:56:35,974 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 15:56:46,233 [INFO] Formatted via: groq — UPSSSC UP Excise Constable Recruitment 2026 Government Jobs in Uttar Pradesh Apply Now
+2026-07-28 15:56:47,651 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:56:47,651 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:56:54,516 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:56:54,516 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:57:01,799 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:57:05,800 [INFO] 📊 Format+Publish summary: 4/4 formatted, 0/4 published as draft.
+2026-07-28 15:57:05,801 [INFO] 📝 [Results] Format+Publish: 0/4 drafts saved. Failed: ['Central Bank of India (CBI) Apprentice Recruitment 2026 Result', 'Jharkhand JSSC Jharkhand Excise Constable Competitive Examination JECCE 2023 Result 2026 for 583 Post', 'UPSSSC Pharmaceutical Pharmacists Ayurvedic Recruitment 2024 Eligibility Result 2026 for 1002 Post', 'UPSSSC UP Excise Constable (Aabkari Sipahi) Recruitment 2026 Eligibility Result']
+2026-07-28 15:57:05,801 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-28 15:57:07,400 [INFO] [SarkariResult] [Answer Key] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-07-28 15:57:12,612 [INFO] [SarkariResult] 2 posts saved -> data/2026-07-28/Answer Key/
+2026-07-28 15:57:12,937 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-28 15:57:12,938 [INFO] ✅ [SarkariResult] [Answer Key] 2 naye posts saved -> data/2026-07-28/Answer Key
+2026-07-28 15:57:19,084 [INFO] Formatted via: groq — Delhi High Court Higher Judicial Service HJS Recruitment 2026 Answer Key + Apply Online
+2026-07-28 15:57:19,964 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:57:19,964 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:57:26,820 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:57:26,821 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:57:33,638 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:57:37,794 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-28 15:57:45,436 [INFO] Formatted via: groq — RPSC Senior Teacher Grade II TGT Answer Key 2026 Government Jobs in Rajasthan
+2026-07-28 15:57:46,000 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 15:57:46,000 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:57:52,466 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-28 15:57:52,466 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-28 15:57:59,290 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-28 15:58:03,291 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-07-28 15:58:03,292 [INFO] 📝 [Answer Key] Format+Publish: 0/2 drafts saved. Failed: ['Delhi Higher Judicial Services HJS Recruitment 2026 Answer Key', 'RPSC Rajasthan TGT Senior Teacher Grade II 07/2025 Question Paper, Answer Key 2026']
+2026-07-28 15:58:03,292 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-28 15:58:08,534 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-28 15:58:08,534 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-28 15:58:08,534 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-28 15:58:09,574 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-28 15:58:09,575 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-28 15:58:09,575 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-28 15:58:14,795 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-28 15:58:14,795 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-28 15:58:14,796 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-28 15:58:16,689 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-07-28 15:58:16,690 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-07-28 15:58:16,690 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-28 15:58:23,436 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-28 15:58:23,436 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-28 15:58:23,436 [INFO] ============================================================
+2026-07-28 15:58:23,437 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-28 15:58:23,437 [INFO] ============================================================
+

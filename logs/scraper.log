@@ -9771,3 +9771,69 @@
 2026-07-30 00:15:22,430 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-30 00:15:22,430 [INFO] ============================================================
 
+2026-07-30 10:03:29,300 [INFO] 
+============================================================
+2026-07-30 10:03:29,300 [INFO] 🔍 [run_once] Check started at 2026-07-30T10:03:29.300688Z
+2026-07-30 10:03:29,300 [INFO] ============================================================
+2026-07-30 10:03:29,300 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-30 10:03:34,881 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-30 10:03:37,636 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-30/Latest Job/
+2026-07-30 10:03:37,927 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-30 10:03:37,928 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-07-30/Latest Job
+2026-07-30 10:03:43,586 [INFO] Formatted via: groq — UP Election Commission Computer Assistant Outsourcing Recruitment 2026 Apply Online Form + Government Job in India 2026 - Apply Now
+2026-07-30 10:03:44,524 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-30 10:03:44,524 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-30 10:03:50,991 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-30 10:03:50,991 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-30 10:03:57,474 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-30 10:04:01,475 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-30 10:04:01,476 [INFO] 📝 [Latest Job] Format+Publish: 0/1 drafts saved. Failed: ['UP Nirvachan Vibhag Computer Assistant Outsourcing Recruitment 2026 Apply Online Form for 40 Post']
+2026-07-30 10:04:01,476 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-30 10:04:06,529 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-07-30 10:04:06,531 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-07-30 10:04:06,531 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-30 10:04:11,790 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-07-30 10:04:11,792 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-07-30 10:04:11,792 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-30 10:04:14,512 [INFO] [SarkariResult] [Answer Key] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-30 10:04:17,756 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-30/Answer Key/
+2026-07-30 10:04:18,041 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-30 10:04:18,041 [INFO] ✅ [SarkariResult] [Answer Key] 1 naye posts saved -> data/2026-07-30/Answer Key
+2026-07-30 10:04:25,617 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 355 (char 1019)
+2026-07-30 10:04:25,617 [INFO] Formatted via: template — Patna High Court Computer Operator Cum Typist Recruitment 2026 Answer Key
+2026-07-30 10:04:26,480 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-07-30 10:04:26,480 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-30 10:04:33,056 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-30 10:04:33,056 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-30 10:04:39,528 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-30 10:04:43,529 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-30 10:04:43,529 [INFO] 📝 [Answer Key] Format+Publish: 0/1 drafts saved. Failed: ['Patna High Court Computer Operator Cum Typist Recruitment 2026 Answer Key']
+2026-07-30 10:04:43,529 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-30 10:04:44,644 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-30 10:04:44,644 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-30 10:04:44,644 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-30 10:04:53,406 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-30 10:04:53,406 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-30 10:04:53,406 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-30 10:04:55,680 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-30 10:04:55,680 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-30 10:04:55,680 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-30 10:04:59,001 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-30 10:05:02,021 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-30/Outsourcing Offline Jobs/
+2026-07-30 10:05:02,309 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-30 10:05:02,310 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 1 naye posts saved -> data/2026-07-30/Outsourcing Offline Jobs
+2026-07-30 10:05:11,158 [INFO] Formatted via: groq — Atal Awasiya Vidyalaya Special Educator Recruitment 2026 in Uttar Pradesh, India - Apply Now
+2026-07-30 10:05:11,689 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-30 10:05:11,690 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-30 10:05:18,146 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-30 10:05:18,146 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-30 10:05:24,596 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-30 10:05:28,597 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-30 10:05:28,598 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/1 drafts saved. Failed: ['Uttar Pradesh UP Atal Awasiya Vidyalaya Samiti Special Educator / Special Teacher Outsourcing Recruitment 2026 Apply Online']
+2026-07-30 10:05:28,598 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-30 10:05:29,823 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-30 10:05:29,824 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-30 10:05:29,824 [INFO] ============================================================
+2026-07-30 10:05:29,824 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-30 10:05:29,824 [INFO] ============================================================
+

@@ -9965,3 +9965,105 @@
 2026-07-31 08:11:22,867 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-07-31 08:11:22,867 [INFO] ============================================================
 
+2026-07-31 16:13:50,723 [INFO] 
+============================================================
+2026-07-31 16:13:50,723 [INFO] 🔍 [run_once] Check started at 2026-07-31T16:13:50.723331Z
+2026-07-31 16:13:50,723 [INFO] ============================================================
+2026-07-31 16:13:50,723 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-07-31 16:13:54,485 [INFO] [SarkariResult] [Latest Job] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-07-31 16:14:01,187 [INFO] [SarkariResult] 2 posts saved -> data/2026-07-31/Latest Job/
+2026-07-31 16:14:01,665 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-31 16:14:01,666 [INFO] ✅ [SarkariResult] [Latest Job] 2 naye posts saved -> data/2026-07-31/Latest Job
+2026-07-31 16:14:07,428 [INFO] Formatted via: groq — SKAU Kurukshetra Non Teaching Post Recruitment 2026 in Haryana, India - Apply Now
+2026-07-31 16:14:08,042 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:14:08,043 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:14:14,577 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:14:14,577 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:14:21,107 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:14:25,208 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-31 16:14:31,660 [INFO] Formatted via: groq — UPSRLM Various Post Outsourcing Recruitment 2026 in **India** - Apply Now
+2026-07-31 16:14:32,177 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:14:32,177 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:14:38,770 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:14:38,770 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:14:45,300 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:14:49,301 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-07-31 16:14:49,301 [INFO] 📝 [Latest Job] Format+Publish: 0/2 drafts saved. Failed: ['Shri Krishna Ayush University Non Teaching Recruitment 2026 Apply Online for 60 Post', 'उत्तर प्रदेश राज्य ग्रामीण अजीविका मिशनUPSRLM Various Post Outsourcing Recruitment 2026 Online Form 2026']
+2026-07-31 16:14:49,301 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-07-31 16:14:53,984 [INFO] [SarkariResult] [Admit Card] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-31 16:14:56,550 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-31/Admit Card/
+2026-07-31 16:14:56,967 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-31 16:14:56,968 [INFO] ✅ [SarkariResult] [Admit Card] 1 naye posts saved -> data/2026-07-31/Admit Card
+2026-07-31 16:15:05,158 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 15 (char 754)
+2026-07-31 16:15:05,158 [INFO] Formatted via: template — MPESB MP Group 2 Sub Group 1 Krashi Vistar Adhikari (Agriculture Extension Officer)Recruitment Test – 2026 Exam Date Revised
+2026-07-31 16:15:05,696 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:15:05,697 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:15:12,354 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:15:12,354 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:15:19,111 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:15:23,112 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-31 16:15:23,113 [INFO] 📝 [Admit Card] Format+Publish: 0/1 drafts saved. Failed: ['MPESB MP Group 2 Sub Group 1 Krashi Vistar Adhikari (Agriculture Extension Officer)Recruitment Test – 2026 Exam Date Revised']
+2026-07-31 16:15:23,113 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-07-31 16:15:27,956 [INFO] [SarkariResult] [Results] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-31 16:15:30,487 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-31/Results/
+2026-07-31 16:15:30,969 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-31 16:15:30,970 [INFO] ✅ [SarkariResult] [Results] 1 naye posts saved -> data/2026-07-31/Results
+2026-07-31 16:15:31,107 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-31 16:15:37,758 [INFO] Formatted via: groq — UP Police Constable Result 2026 for 32679 Post + Government Jobs in India + Apply by 30/01/2026
+2026-07-31 16:15:38,304 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:15:38,304 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:15:44,833 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:15:44,833 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:15:51,361 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:15:55,362 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-31 16:15:55,363 [INFO] 📝 [Results] Format+Publish: 0/1 drafts saved. Failed: ['UP Police Constable Recruitment 2025 Result, Final Answer Key']
+2026-07-31 16:15:55,363 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-07-31 16:15:57,578 [INFO] [SarkariResult] [Answer Key] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-07-31 16:16:07,717 [INFO] [SarkariResult] 2 posts saved -> data/2026-07-31/Answer Key/
+2026-07-31 16:16:08,133 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-31 16:16:08,134 [INFO] ✅ [SarkariResult] [Answer Key] 2 naye posts saved -> data/2026-07-31/Answer Key
+2026-07-31 16:16:15,731 [INFO] Formatted via: groq — Railway RRB Isolated Various Post Answer Key 2026 - Check Now
+2026-07-31 16:16:16,502 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:16:16,502 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:16:23,038 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:16:23,038 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:16:29,574 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:16:33,686 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-07-31 16:16:39,992 [INFO] Formatted via: groq — UP Sant Ravidas Nagar ECCE Educator Recruitment 2026 | Government Jobs in India | Apply Now
+2026-07-31 16:16:40,535 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:16:40,535 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:16:47,048 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:16:47,048 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:16:53,797 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:16:57,798 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-07-31 16:16:57,799 [INFO] 📝 [Answer Key] Format+Publish: 0/2 drafts saved. Failed: ['Railway RRB Isolated Categories Various Posts CEN 08/2025 Recruitment 2026 Answer Key', 'Uttar Pradesh UP Basic Education Sant Ravidas Nagar ECCE Educator Outsourcing Recruitment 2026 Apply Online For 70 Post']
+2026-07-31 16:16:57,799 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-07-31 16:17:00,145 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-07-31 16:17:00,145 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-07-31 16:17:00,145 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-07-31 16:17:01,395 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-07-31 16:17:01,395 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-07-31 16:17:01,395 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-07-31 16:17:05,183 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-07-31 16:17:05,183 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-07-31 16:17:05,183 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-07-31 16:17:06,785 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-07-31 16:17:09,386 [INFO] [SarkariResult] 1 posts saved -> data/2026-07-31/Outsourcing Offline Jobs/
+2026-07-31 16:17:09,826 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-07-31 16:17:09,827 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 1 naye posts saved -> data/2026-07-31/Outsourcing Offline Jobs
+2026-07-31 16:17:16,354 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 15 (char 566)
+2026-07-31 16:17:16,354 [INFO] Formatted via: template — उत्तर प्रदेश राज्य ग्रामीण अजीविका मिशनUPSRLM Various Post Outsourcing Recruitment 2026 Online Form 2026
+2026-07-31 16:17:17,163 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:17:17,163 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:17:23,704 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:17:23,704 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-07-31 16:17:30,259 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-07-31 16:17:34,260 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-07-31 16:17:34,260 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/1 drafts saved. Failed: ['उत्तर प्रदेश राज्य ग्रामीण अजीविका मिशनUPSRLM Various Post Outsourcing Recruitment 2026 Online Form 2026']
+2026-07-31 16:17:34,260 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-07-31 16:17:35,914 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-07-31 16:17:35,914 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-07-31 16:17:35,914 [INFO] ============================================================
+2026-07-31 16:17:35,915 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-07-31 16:17:35,915 [INFO] ============================================================
+

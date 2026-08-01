@@ -10223,3 +10223,51 @@
 2026-08-01 09:00:29,548 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-08-01 09:00:29,548 [INFO] ============================================================
 
+2026-08-01 12:17:16,773 [INFO] 
+============================================================
+2026-08-01 12:17:16,774 [INFO] 🔍 [run_once] Check started at 2026-08-01T12:17:16.774006Z
+2026-08-01 12:17:16,774 [INFO] ============================================================
+2026-08-01 12:17:16,774 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-01 12:17:26,853 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-01 12:17:30,615 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-01/Latest Job/
+2026-08-01 12:17:31,156 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-01 12:17:31,157 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-08-01/Latest Job
+2026-08-01 12:17:37,525 [INFO] Formatted via: groq — UPSRTC Bus Conductor Recruitment 2026 in Uttar Pradesh, India - Apply Now
+2026-08-01 12:18:37,667 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-01 12:19:43,772 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-01 12:20:49,842 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-01 12:21:00,889 [ERROR] Groq JSON parse failed: Invalid control character at: line 16 column 92 (char 8457)
+2026-08-01 12:21:00,889 [INFO] Formatted via: template — UPUPSSSC Preliminary Examination Test PET 2026 Apply Online Form 2026
+2026-08-01 12:22:01,004 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-01 12:23:07,112 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-01 12:24:13,220 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-01 12:24:17,220 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-08-01 12:24:17,221 [INFO] 📝 [Latest Job] Format+Publish: 0/2 drafts saved. Failed: ['UPSRTC उत्तर प्रदेश राज्य सड़क परिवहन निगम Bus Conductor Varanasi, Chandauli, Jaunpur, Ghazipur, Sonbhadra, Sant Ravidas Nagar Outsourcing Recruitment Online Form2026', 'UPUPSSSC Preliminary Examination Test PET 2026 Apply Online Form 2026']
+2026-08-01 12:24:17,221 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-01 12:24:24,621 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-08-01 12:24:24,622 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-08-01 12:24:24,622 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-01 12:24:29,480 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-08-01 12:24:29,481 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-08-01 12:24:29,482 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-01 12:24:32,003 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-08-01 12:24:32,004 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-08-01 12:24:32,004 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-01 12:24:39,407 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-08-01 12:24:39,408 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-08-01 12:24:39,408 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-01 12:24:42,812 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-01 12:24:42,813 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-01 12:24:42,813 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-01 12:24:45,312 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-01 12:24:45,312 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-01 12:24:45,312 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-01 12:24:52,194 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-08-01 12:24:52,194 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-08-01 12:24:52,194 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-01 12:24:57,896 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-01 12:24:57,896 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-01 12:24:57,896 [INFO] ============================================================
+2026-08-01 12:24:57,896 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-01 12:24:57,896 [INFO] ============================================================
+

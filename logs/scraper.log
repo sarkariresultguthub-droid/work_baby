@@ -10271,3 +10271,105 @@
 2026-08-01 12:24:57,896 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-08-01 12:24:57,896 [INFO] ============================================================
 
+2026-08-01 16:32:02,190 [INFO] 
+============================================================
+2026-08-01 16:32:02,190 [INFO] 🔍 [run_once] Check started at 2026-08-01T16:32:02.190122Z
+2026-08-01 16:32:02,190 [INFO] ============================================================
+2026-08-01 16:32:02,190 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-01 16:32:06,849 [INFO] [SarkariResult] [Latest Job] ✅ 4 NAYA post mila! Full data fetch kar raha hun...
+2026-08-01 16:32:23,546 [INFO] [SarkariResult] 4 posts saved -> data/2026-08-01/Latest Job/
+2026-08-01 16:32:24,025 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-01 16:32:24,026 [INFO] ✅ [SarkariResult] [Latest Job] 4 naye posts saved -> data/2026-08-01/Latest Job
+2026-08-01 16:32:30,230 [INFO] Formatted via: groq — DRDO Graduate Apprentice Recruitment 2026 Government Jobs in India Apply Now
+2026-08-01 16:32:30,937 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-01 16:32:30,937 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:32:37,492 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-01 16:32:37,492 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:32:44,044 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-01 16:32:53,812 [INFO] Formatted via: groq — HARTRON Junior Programmer Recruitment 2026 Government Job in Haryana Apply Now
+2026-08-01 16:32:54,772 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:32:54,772 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:33:01,721 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:33:01,721 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:33:08,664 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:33:12,748 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-08-01 16:33:19,754 [INFO] Formatted via: groq — RCFL Management Trainee Recruitment 2026 | Government Jobs in India | Apply Now
+2026-08-01 16:33:20,317 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-01 16:33:20,317 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:33:26,897 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-01 16:33:26,897 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:33:33,936 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:33:43,951 [INFO] Formatted via: groq — UPSC Principal and Vice Principal Recruitment 2026 | Government Jobs | India | Apply Now
+2026-08-01 16:33:44,921 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:33:44,921 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:33:51,848 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:33:51,848 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:33:58,800 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:34:02,889 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-08-01 16:34:09,074 [INFO] Formatted via: groq — UPSRTC Bus Conductor Recruitment 2026 in Uttar Pradesh, India - Apply Now
+2026-08-01 16:34:09,617 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-01 16:34:09,617 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:34:16,535 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:34:16,535 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:34:23,092 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-01 16:34:33,221 [INFO] Formatted via: groq — UPSSSC PET 2026 Online Form + Government Job + Uttar Pradesh + 2026 + Apply Now
+2026-08-01 16:34:34,261 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-01 16:34:34,261 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:34:41,232 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:34:41,232 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:34:48,204 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:34:52,205 [INFO] 📊 Format+Publish summary: 6/6 formatted, 0/6 published as draft.
+2026-08-01 16:34:52,206 [INFO] 📝 [Latest Job] Format+Publish: 0/6 drafts saved. Failed: ['DRDO Graduate Apprentice Recruitment 2026', 'HARTRON Junior Programmer Recruitment 2026 Apply Online for 530 Post', 'RCFL Management Trainee Recruitment 2026 Apply Online for 94 Post', 'UPSC Principal and Vice Principal Recruitment 2026 Apply Online for 828 Post', 'UPSRTC उत्तर प्रदेश राज्य सड़क परिवहन निगम Bus Conductor Varanasi, Chandauli, Jaunpur, Ghazipur, Sonbhadra, Sant Ravidas Nagar Outsourcing Recruitment Online Form2026', 'UPUPSSSC Preliminary Examination Test PET 2026 Apply Online Form 2026']
+2026-08-01 16:34:52,206 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-01 16:34:57,006 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-08-01 16:34:57,007 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-08-01 16:34:57,007 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-01 16:35:13,441 [INFO] [SarkariResult] [Results] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-01 16:35:23,624 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-01/Results/
+2026-08-01 16:35:23,983 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-01 16:35:23,984 [INFO] ✅ [SarkariResult] [Results] 1 naye posts saved -> data/2026-08-01/Results
+2026-08-01 16:35:24,083 [WARNING] Groq key #1 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwey1bfmegvt9s5wr8xytz6b` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:24,186 [WARNING] Groq key #2 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqed857f9jry2x6kj0gy457` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:24,285 [WARNING] Groq key #3 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqeyrx8f1k9ks5706p1bwaz` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:24,377 [WARNING] Groq key #4 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqex7p8ec894q6ejak3htgn` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:24,473 [WARNING] Groq key #5 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqetz7efmzsj6vtskz5jar3` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:24,581 [WARNING] Groq key #6 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqes84xf7gb8e22pkd6q08d` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:24,694 [WARNING] Groq key #7 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqeqn1tesbaytx3egb480hf` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:24,787 [WARNING] Groq key #8 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kqfteveee3yvmxtf95wxx8s6` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:24,897 [WARNING] Groq key #9 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwey1bfmegvt9s5wr8xytz6b` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:25,012 [WARNING] Groq key #10 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqebrhqebavrzy5b26zvyq1` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:25,107 [WARNING] Groq key #11 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqecjqjesqvy41cdh6d3jyw` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:25,197 [WARNING] Groq key #12 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqehz6ff98sw4jz3pqt7zwr` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:25,299 [WARNING] Groq key #13 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqefea1fexs3ga1b8j1hne4` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:25,399 [WARNING] Groq key #14 unexpected [413]: {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kwqefea1fexs3ga1b8j1hne4` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 
+2026-08-01 16:35:25,399 [ERROR] Saari Groq keys fail ho gayin — template fallback use ho raha hai.
+2026-08-01 16:35:25,400 [INFO] Formatted via: template — BSSC Office Attendant 02/2022 Final Result
+2026-08-01 16:35:25,989 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-01 16:35:25,989 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:35:32,967 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:35:32,967 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-01 16:35:40,321 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-01 16:35:44,322 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-01 16:35:44,323 [INFO] 📝 [Results] Format+Publish: 0/1 drafts saved. Failed: ['BSSC Office Attendant 02/2022 Final Result']
+2026-08-01 16:35:44,323 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-01 16:35:48,755 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-08-01 16:35:48,756 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-08-01 16:35:48,756 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-01 16:35:51,478 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-08-01 16:35:51,478 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-08-01 16:35:51,478 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-01 16:35:55,439 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-01 16:35:55,439 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-01 16:35:55,440 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-01 16:35:56,744 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-01 16:35:56,744 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-01 16:35:56,744 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-01 16:35:58,218 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-08-01 16:35:58,218 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-08-01 16:35:58,218 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-01 16:35:59,666 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-01 16:35:59,666 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-01 16:35:59,666 [INFO] ============================================================
+2026-08-01 16:35:59,666 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-01 16:35:59,666 [INFO] ============================================================
+

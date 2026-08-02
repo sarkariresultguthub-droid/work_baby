@@ -10541,3 +10541,54 @@
 2026-08-02 11:38:55,308 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-08-02 11:38:55,308 [INFO] ============================================================
 
+2026-08-02 15:46:58,782 [INFO] 
+============================================================
+2026-08-02 15:46:58,782 [INFO] 🔍 [run_once] Check started at 2026-08-02T15:46:58.782272Z
+2026-08-02 15:46:58,782 [INFO] ============================================================
+2026-08-02 15:46:58,782 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-02 15:47:02,515 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-02 15:47:06,032 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-02/Latest Job/
+2026-08-02 15:47:06,409 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-02 15:47:06,410 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-08-02/Latest Job
+2026-08-02 15:47:13,289 [INFO] Formatted via: groq — SJVN Various Post Recruitment Government Job India 2026 - Apply Now
+2026-08-02 15:48:13,480 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-02 15:49:19,686 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-02 15:50:25,827 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-02 15:50:35,587 [INFO] Formatted via: groq — UPPSC Architectural Assistant and Other Post Online Form 2026 Government Jobs in Uttar Pradesh
+2026-08-02 15:51:35,783 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-02 15:52:41,913 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-02 15:53:48,017 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-02 15:53:58,366 [INFO] Formatted via: groq — UPPSC Manager System Recruitment 2026 Government Jobs in India Apply Now
+2026-08-02 15:54:58,492 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-02 15:56:04,603 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-02 15:57:10,714 [ERROR] Publish error: HTTPSConnectionPool(host='careerflora.com', port=443): Max retries exceeded with url: /api/save_scraped_post.php (Caused by NewConnectionError("HTTPSConnection(host='careerflora.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-08-02 15:57:14,714 [INFO] 📊 Format+Publish summary: 3/3 formatted, 0/3 published as draft.
+2026-08-02 15:57:14,715 [INFO] 📝 [Latest Job] Format+Publish: 0/3 drafts saved. Failed: ['SJVN Various Post Recruitment 2026 Apply Online', 'UPPSC Architectural Assistant, Estate Manager & Microbiologist Recruitment 2026 Apply Online for 37 Post', 'UPPSC Manager System, Senior Programmer, Programmer Grade II and Computer Operator Recruitment 2026 Apply Online for 10 Post']
+2026-08-02 15:57:14,715 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-02 15:57:22,068 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-08-02 15:57:22,070 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-08-02 15:57:22,070 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-02 15:57:27,984 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-08-02 15:57:27,986 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-08-02 15:57:27,986 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-02 15:57:30,584 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-08-02 15:57:30,584 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-08-02 15:57:30,585 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-02 15:57:32,118 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-08-02 15:57:32,118 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-08-02 15:57:32,118 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-02 15:57:32,990 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-02 15:57:32,991 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-02 15:57:32,991 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-02 15:57:35,197 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-02 15:57:35,197 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-02 15:57:35,197 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-02 15:57:37,044 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-08-02 15:57:37,044 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-08-02 15:57:37,044 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-02 15:57:38,222 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-02 15:57:38,222 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-02 15:57:38,222 [INFO] ============================================================
+2026-08-02 15:57:38,222 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-02 15:57:38,222 [INFO] ============================================================
+

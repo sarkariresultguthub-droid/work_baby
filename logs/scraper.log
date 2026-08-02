@@ -10445,3 +10445,64 @@
 2026-08-01 20:18:09,745 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-08-01 20:18:09,746 [INFO] ============================================================
 
+2026-08-02 06:47:11,570 [INFO] 
+============================================================
+2026-08-02 06:47:11,570 [INFO] 🔍 [run_once] Check started at 2026-08-02T06:47:11.570611Z
+2026-08-02 06:47:11,570 [INFO] ============================================================
+2026-08-02 06:47:11,570 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-02 06:47:17,934 [INFO] [SarkariResult] [Latest Job] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-08-02 06:47:24,287 [INFO] [SarkariResult] 2 posts saved -> data/2026-08-02/Latest Job/
+2026-08-02 06:47:24,870 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-02 06:47:24,870 [INFO] ✅ [SarkariResult] [Latest Job] 2 naye posts saved -> data/2026-08-02/Latest Job
+2026-08-02 06:47:31,623 [INFO] Formatted via: groq — UPPSC Architectural Assistant and Other Post Recruitment 2026 in **India** - Apply Now
+2026-08-02 06:47:32,516 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-02 06:47:32,516 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-02 06:47:39,246 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-02 06:47:39,246 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-02 06:47:45,979 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-02 06:47:56,535 [INFO] Formatted via: groq — UPPSC Computer Operator & Other Post Online Form 2026 + Government Job + Uttar Pradesh, India + Apply Now
+2026-08-02 06:47:57,752 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-02 06:47:57,752 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-02 06:48:04,474 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-02 06:48:04,474 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-02 06:48:11,196 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-02 06:48:15,197 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-08-02 06:48:15,198 [INFO] 📝 [Latest Job] Format+Publish: 0/2 drafts saved. Failed: ['UPPSC Architectural Assistant, Estate Manager & Microbiologist Recruitment 2026 Apply Online for 37 Post', 'UPPSC Manager System, Senior Programmer, Programmer Grade II and Computer Operator Recruitment 2026 Apply Online for 10 Post']
+2026-08-02 06:48:15,198 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-02 06:48:20,097 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-08-02 06:48:20,098 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-08-02 06:48:20,098 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-02 06:48:29,736 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-08-02 06:48:29,737 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-08-02 06:48:29,737 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-02 06:48:33,795 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-08-02 06:48:33,796 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-08-02 06:48:33,796 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-02 06:48:35,158 [INFO] [SarkariResult] [Syllabus] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-02 06:48:54,396 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-02/Syllabus/
+2026-08-02 06:48:54,802 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-02 06:48:54,803 [INFO] ✅ [SarkariResult] [Syllabus] 1 naye posts saved -> data/2026-08-02/Syllabus
+2026-08-02 06:49:01,440 [INFO] Formatted via: groq — CLAT 2027 Exam Syllabus + Admission Test + **India** + 2026 + Apply Now
+2026-08-02 06:49:02,277 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-02 06:49:02,277 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-02 06:49:09,012 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-02 06:49:09,012 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-02 06:49:15,749 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-02 06:49:19,750 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-02 06:49:19,750 [INFO] 📝 [Syllabus] Format+Publish: 0/1 drafts saved. Failed: ['CLAT Common Law Admission Test 2027 Apply Online Form 2026']
+2026-08-02 06:49:19,750 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-02 06:49:21,513 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-02 06:49:21,514 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-02 06:49:21,514 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-02 06:49:25,470 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-02 06:49:25,470 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-02 06:49:25,470 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-02 06:49:26,423 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-08-02 06:49:26,423 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-08-02 06:49:26,423 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-02 06:49:28,158 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-02 06:49:28,159 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-02 06:49:28,159 [INFO] ============================================================
+2026-08-02 06:49:28,159 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-02 06:49:28,159 [INFO] ============================================================
+

@@ -1,0 +1,27 @@
+{
+  "source_site": "SarkariResult",
+  "source_url": "https://www.sarkariresult.com/certificate/",
+  "category": "government_jobs",
+  "scraped_at": "2026-08-03T17:20:32.638134Z",
+  "title": "UPSSSC Exam Calendar 2026",
+  "link": "https://doc.sarkariresults.org.in/UPSSSC_Exam_Calendar_2026.pdf",
+  "date": null,
+  "description": null,
+  "raw_text": "UPSSSC Exam Calendar 2026",
+  "all_links": [
+    {
+      "text": "UPSSSC Exam Calendar 2026",
+      "url": "https://doc.sarkariresults.org.in/UPSSSC_Exam_Calendar_2026.pdf"
+    }
+  ],
+  "all_images": [],
+  "full_title": null,
+  "full_text": null,
+  "tables": [],
+  "important_dates": null,
+  "important_links": [],
+  "fetch_error": "Link is a PDF — skipping HTML parse",
+  "site_name": "SarkariResult",
+  "category_label": "Certificate",
+  "scraped_date": "2026-08-03"
+}

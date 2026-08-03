@@ -10760,3 +10760,48 @@
 2026-08-03 17:21:36,129 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-08-03 17:21:36,129 [INFO] ============================================================
 
+2026-08-03 21:51:59,860 [INFO] 
+============================================================
+2026-08-03 21:51:59,860 [INFO] 🔍 [run_once] Check started at 2026-08-03T21:51:59.860949Z
+2026-08-03 21:51:59,861 [INFO] ============================================================
+2026-08-03 21:51:59,861 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-03 21:52:10,411 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-08-03 21:52:10,413 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-08-03 21:52:10,413 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-03 21:52:15,266 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-08-03 21:52:15,267 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-08-03 21:52:15,267 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-03 21:52:42,101 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-08-03 21:52:42,102 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-08-03 21:52:42,102 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-03 21:52:44,101 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-08-03 21:52:44,101 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-08-03 21:52:44,101 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-03 21:52:46,983 [INFO] [SarkariResult] [Syllabus] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-03 21:52:51,865 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-03/Syllabus/
+2026-08-03 21:52:52,414 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-03 21:52:52,415 [INFO] ✅ [SarkariResult] [Syllabus] 1 naye posts saved -> data/2026-08-03/Syllabus
+2026-08-03 21:52:58,307 [INFO] Formatted via: groq — UPESSC UP TGT & UP PGT Syllabus 2026 in **India** - Check Now
+2026-08-03 21:52:58,956 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-03 21:52:58,956 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-03 21:53:05,569 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-03 21:53:05,569 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-03 21:53:12,175 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-03 21:53:16,177 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-03 21:53:16,177 [INFO] 📝 [Syllabus] Format+Publish: 0/1 drafts saved. Failed: ['Uttar Pradesh UPESSC UP TGT & UP PGT 2026 Syllabus']
+2026-08-03 21:53:16,177 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-03 21:53:18,027 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-03 21:53:18,028 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-03 21:53:18,028 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-03 21:53:21,249 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-03 21:53:21,249 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-03 21:53:21,249 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-03 21:53:22,654 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-08-03 21:53:22,654 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-08-03 21:53:22,654 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-03 21:53:36,912 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-03 21:53:36,912 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-03 21:53:36,912 [INFO] ============================================================
+2026-08-03 21:53:36,912 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-03 21:53:36,912 [INFO] ============================================================
+

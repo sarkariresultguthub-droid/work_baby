@@ -10805,3 +10805,48 @@
 2026-08-03 21:53:36,912 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-08-03 21:53:36,912 [INFO] ============================================================
 
+2026-08-04 07:48:07,432 [INFO] 
+============================================================
+2026-08-04 07:48:07,432 [INFO] 🔍 [run_once] Check started at 2026-08-04T07:48:07.432114Z
+2026-08-04 07:48:07,432 [INFO] ============================================================
+2026-08-04 07:48:07,432 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-04 07:48:49,992 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-08-04 07:48:49,993 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-08-04 07:48:49,993 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-04 07:48:56,280 [INFO] [SarkariResult] [Admit Card] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-04 07:48:59,681 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-04/Admit Card/
+2026-08-04 07:49:00,109 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-04 07:49:00,110 [INFO] ✅ [SarkariResult] [Admit Card] 1 naye posts saved -> data/2026-08-04/Admit Card
+2026-08-04 07:49:05,240 [INFO] Formatted via: groq — MPPSC State Service Exam SSE 2025 Mains Admit Card 2026 - Apply Now
+2026-08-04 07:49:06,441 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-04 07:49:06,441 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-04 07:49:13,284 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-04 07:49:13,285 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-04 07:49:20,362 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-04 07:49:24,364 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-04 07:49:24,364 [INFO] 📝 [Admit Card] Format+Publish: 0/1 drafts saved. Failed: ['Madhya Pradesh State Service Commission MPPSC Mains Exam SSE 2025 : Download Admit Card']
+2026-08-04 07:49:24,364 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-04 07:49:41,925 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-08-04 07:49:41,927 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-08-04 07:49:41,927 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-04 07:49:44,814 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-08-04 07:49:44,815 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-08-04 07:49:44,815 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-04 07:49:53,349 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-08-04 07:49:53,350 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-08-04 07:49:53,350 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-04 07:49:58,619 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-04 07:49:58,620 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-04 07:49:58,620 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-04 07:50:05,427 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-04 07:50:05,427 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-04 07:50:05,427 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-04 07:50:07,594 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-08-04 07:50:07,594 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-08-04 07:50:07,594 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-04 07:50:23,018 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-04 07:50:23,018 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-04 07:50:23,019 [INFO] ============================================================
+2026-08-04 07:50:23,019 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-04 07:50:23,019 [INFO] ============================================================
+

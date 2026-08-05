@@ -10976,3 +10976,91 @@
 2026-08-05 06:14:54,176 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-08-05 06:14:54,176 [INFO] ============================================================
 
+2026-08-05 13:19:01,799 [INFO] 
+============================================================
+2026-08-05 13:19:01,799 [INFO] 🔍 [run_once] Check started at 2026-08-05T13:19:01.799203Z
+2026-08-05 13:19:01,799 [INFO] ============================================================
+2026-08-05 13:19:01,799 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-05 13:19:19,462 [INFO] [SarkariResult] [Latest Job] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-08-05 13:19:28,692 [INFO] [SarkariResult] 2 posts saved -> data/2026-08-05/Latest Job/
+2026-08-05 13:19:28,983 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-05 13:19:28,984 [INFO] ✅ [SarkariResult] [Latest Job] 2 naye posts saved -> data/2026-08-05/Latest Job
+2026-08-05 13:19:35,086 [INFO] Formatted via: groq — UP Gautam Buddha Nagar ECCE Educator Recruitment 2026 | Government Job in India | Apply Now
+2026-08-05 13:19:36,052 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:19:36,052 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:19:42,507 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-05 13:19:42,507 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:19:49,336 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:19:53,418 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-08-05 13:19:59,112 [INFO] Formatted via: groq — UP Sant Ravidas Nagar ECCE Educator Recruitment 2026 | Government Job in India | Apply Now
+2026-08-05 13:19:59,942 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:19:59,942 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:20:06,829 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:20:06,829 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:20:13,703 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:20:17,704 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-08-05 13:20:17,705 [INFO] 📝 [Latest Job] Format+Publish: 0/2 drafts saved. Failed: ['Uttar Pradesh UP Basic Education Gautam Buddha Nagar ECCE Educator Outsourcing Recruitment 2026 Apply Online For 14 Post', 'Uttar Pradesh UP Basic Education Sant Ravidas Nagar ECCE Educator Outsourcing Recruitment 2026 Apply Online For 70 Post']
+2026-08-05 13:20:17,705 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-05 13:20:31,054 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-08-05 13:20:31,055 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-08-05 13:20:31,055 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-05 13:20:46,710 [INFO] [SarkariResult] [Results] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-05 13:20:47,710 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-05/Results/
+2026-08-05 13:20:48,018 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-05 13:20:48,019 [INFO] ✅ [SarkariResult] [Results] 1 naye posts saved -> data/2026-08-05/Results
+2026-08-05 13:20:52,895 [INFO] Formatted via: groq — Rajasthan RSSB Conductor Parichalak 2024 Result with Cutoff - Check Now
+2026-08-05 13:20:53,411 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-05 13:20:53,411 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:21:00,241 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:21:00,241 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:21:06,713 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-05 13:21:10,714 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-05 13:21:10,715 [INFO] 📝 [Results] Format+Publish: 0/1 drafts saved. Failed: ['Rajasthan RSSB Conductor Parichalak 2024 Result with Cutoff']
+2026-08-05 13:21:10,715 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-05 13:21:30,902 [INFO] [SarkariResult] [Answer Key] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-05 13:21:55,190 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-05/Answer Key/
+2026-08-05 13:21:55,484 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-05 13:21:55,484 [INFO] ✅ [SarkariResult] [Answer Key] 1 naye posts saved -> data/2026-08-05/Answer Key
+2026-08-05 13:22:01,120 [INFO] Formatted via: groq — UPSC Combined Medical Services CMS Examination 2026 Answer Key + Government Jobs + India + 2026 + Apply Now
+2026-08-05 13:22:01,982 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:22:01,983 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:22:08,438 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-05 13:22:08,439 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:22:15,251 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:22:19,252 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-05 13:22:19,253 [INFO] 📝 [Answer Key] Format+Publish: 0/1 drafts saved. Failed: ['UPSC Combined Medical Services CMS Examination 2026 Answer Key']
+2026-08-05 13:22:19,253 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-05 13:22:22,849 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-08-05 13:22:22,849 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-08-05 13:22:22,849 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-05 13:22:29,032 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-05 13:22:29,032 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-05 13:22:29,032 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-05 13:22:31,980 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-05 13:22:31,980 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-05 13:22:31,980 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-05 13:22:34,268 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 2 NAYA post mila! Full data fetch kar raha hun...
+2026-08-05 13:22:43,782 [INFO] [SarkariResult] 2 posts saved -> data/2026-08-05/Outsourcing Offline Jobs/
+2026-08-05 13:22:44,063 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-05 13:22:44,064 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 2 naye posts saved -> data/2026-08-05/Outsourcing Offline Jobs
+2026-08-05 13:22:50,280 [INFO] Formatted via: groq — UP Gautam Buddha Nagar ECCE Educator Recruitment 2026 Outsourcing Jobs in India Apply Now
+2026-08-05 13:22:50,752 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-05 13:22:50,753 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:22:57,952 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:22:57,953 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:23:05,389 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:23:15,262 [INFO] Formatted via: groq — UP Sant Ravidas Nagar ECCE Educator Recruitment 2026 Outsourcing Jobs in **India** - Apply Now
+2026-08-05 13:23:16,468 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:23:16,468 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:23:23,286 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:23:23,286 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-05 13:23:30,485 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-05 13:23:34,486 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-08-05 13:23:34,487 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/2 drafts saved. Failed: ['Uttar Pradesh UP Basic Education Gautam Buddha Nagar ECCE Educator Outsourcing Recruitment 2026 Apply Online For 14 Post', 'Uttar Pradesh UP Basic Education Sant Ravidas Nagar ECCE Educator Outsourcing Recruitment 2026 Apply Online For 70 Post']
+2026-08-05 13:23:34,487 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-05 13:23:40,706 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-05 13:23:40,706 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-05 13:23:40,706 [INFO] ============================================================
+2026-08-05 13:23:40,707 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-05 13:23:40,707 [INFO] ============================================================
+

@@ -1,0 +1,27 @@
+{
+  "source_site": "SarkariResult",
+  "source_url": "https://www.sarkariresult.com/result/",
+  "category": "government_jobs",
+  "scraped_at": "2026-08-16T07:49:17.836052Z",
+  "title": "MPESB Exam Calendar 2026",
+  "link": "https://doc.sarkariresults.org.in/mpesb_Exam_schedule_2026_060826.pdf",
+  "date": null,
+  "description": null,
+  "raw_text": "MPESB Exam Calendar 2026",
+  "all_links": [
+    {
+      "text": "MPESB Exam Calendar 2026",
+      "url": "https://doc.sarkariresults.org.in/mpesb_Exam_schedule_2026_060826.pdf"
+    }
+  ],
+  "all_images": [],
+  "full_title": null,
+  "full_text": null,
+  "tables": [],
+  "important_dates": null,
+  "important_links": [],
+  "fetch_error": "Link is a PDF — skipping HTML parse",
+  "site_name": "SarkariResult",
+  "category_label": "Results",
+  "scraped_date": "2026-08-16"
+}

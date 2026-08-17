@@ -22815,3 +22815,78 @@
 2026-08-17 05:35:53,671 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-08-17 05:35:53,671 [INFO] ============================================================
 
+2026-08-17 06:55:34,709 [INFO] 
+============================================================
+2026-08-17 06:55:34,709 [INFO] 🔍 [run_once] Check started at 2026-08-17T06:55:34.709850Z
+2026-08-17 06:55:34,709 [INFO] ============================================================
+2026-08-17 06:55:34,710 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-17 06:56:31,064 [WARNING] Attempt 1: https://www.sarkariresult.com/latestjob/ returned 500
+2026-08-17 06:56:31,064 [INFO] Waiting 6.1s before retry...
+2026-08-17 06:57:23,579 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-17 06:57:26,984 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-17/Latest Job/
+2026-08-17 06:57:27,412 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-17 06:57:27,413 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-08-17/Latest Job
+2026-08-17 06:57:32,865 [INFO] Formatted via: groq — NTA ICAR AIEEA PG and PhD Online Form 2026 | Last Date : 07/06/2026
+2026-08-17 06:57:33,627 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 06:57:33,627 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 06:57:40,302 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 06:57:40,302 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 06:57:47,503 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 06:57:51,682 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-08-17 06:57:57,856 [INFO] Formatted via: groq — UPSSSC Veterinary Pharmacist Recruitment 2026 in Uttar Pradesh, India - Apply Now
+2026-08-17 06:57:59,007 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 06:57:59,007 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 06:58:06,185 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 06:58:06,185 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 06:58:13,285 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 06:58:17,287 [INFO] 📊 Format+Publish summary: 2/2 formatted, 0/2 published as draft.
+2026-08-17 06:58:17,287 [INFO] 📝 [Latest Job] Format+Publish: 0/2 drafts saved. Failed: ['NTA ICAR AIEEA PG and Phd 2026 Answer Key', 'UPSSSC Veterinary Pharmacist Main Examination 2026 Apply Online for 1308 Post']
+2026-08-17 06:58:17,287 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-17 06:59:08,084 [INFO] [SarkariResult] [Admit Card] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-17 06:59:11,953 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-17/Admit Card/
+2026-08-17 06:59:12,345 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-17 06:59:12,346 [INFO] ✅ [SarkariResult] [Admit Card] 1 naye posts saved -> data/2026-08-17/Admit Card
+2026-08-17 06:59:18,578 [INFO] Formatted via: groq — Air Force Agniveer Vayu Musician Admit Card 2026 | Government Jobs | India | Apply Now
+2026-08-17 06:59:19,320 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 06:59:19,320 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 06:59:26,520 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 06:59:26,520 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 06:59:33,748 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 06:59:37,749 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-17 06:59:37,750 [INFO] 📝 [Admit Card] Format+Publish: 0/1 drafts saved. Failed: ['Indian Airforce Agniveer Vayu Musician Rally Recruitment 2026 Admit Card']
+2026-08-17 06:59:37,750 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-17 06:59:42,914 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-08-17 06:59:42,915 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-08-17 06:59:42,915 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-17 06:59:45,019 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-08-17 06:59:45,019 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-08-17 06:59:45,019 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-17 06:59:47,284 [INFO] [SarkariResult] [Syllabus] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-17 06:59:50,026 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-17/Syllabus/
+2026-08-17 06:59:50,473 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-17 06:59:50,474 [INFO] ✅ [SarkariResult] [Syllabus] 1 naye posts saved -> data/2026-08-17/Syllabus
+2026-08-17 06:59:57,828 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 246 (char 797)
+2026-08-17 06:59:57,828 [INFO] Formatted via: template — UPSSSC Veterinary Pharmacist Main Examination 2026 Apply Online for 1308 Post
+2026-08-17 06:59:58,926 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 06:59:58,926 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:00:06,066 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:00:06,066 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:00:13,177 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:00:17,178 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-17 07:00:17,179 [INFO] 📝 [Syllabus] Format+Publish: 0/1 drafts saved. Failed: ['UPSSSC Veterinary Pharmacist Main Examination 2026 Apply Online for 1308 Post']
+2026-08-17 07:00:17,179 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-17 07:00:19,174 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-17 07:00:19,174 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-17 07:00:19,175 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-17 07:00:26,427 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-17 07:00:26,428 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-17 07:00:26,428 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-17 07:00:29,421 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-08-17 07:00:29,421 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-08-17 07:00:29,421 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-17 07:00:34,843 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-17 07:00:34,844 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-17 07:00:34,844 [INFO] ============================================================
+2026-08-17 07:00:34,844 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-17 07:00:34,844 [INFO] ============================================================
+

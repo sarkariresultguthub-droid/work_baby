@@ -22724,3 +22724,59 @@
 2026-08-17 03:57:40,299 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-08-17 03:57:40,299 [INFO] ============================================================
 
+2026-08-17 04:49:23,170 [INFO] 
+============================================================
+2026-08-17 04:49:23,170 [INFO] 🔍 [run_once] Check started at 2026-08-17T04:49:23.170297Z
+2026-08-17 04:49:23,170 [INFO] ============================================================
+2026-08-17 04:49:23,170 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-17 04:49:26,903 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-17 04:49:29,188 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-17/Latest Job/
+2026-08-17 04:49:29,525 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-17 04:49:29,526 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-08-17/Latest Job
+2026-08-17 04:49:35,365 [INFO] Formatted via: groq — NTA ICAR AIEEA PG and PhD Online Form 2026 | Apply Now
+2026-08-17 04:49:35,908 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 04:49:35,908 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 04:49:42,367 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 04:49:42,367 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 04:49:48,837 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 04:49:52,838 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-17 04:49:52,838 [INFO] 📝 [Latest Job] Format+Publish: 0/1 drafts saved. Failed: ['NTA ICAR AIEEA PG and Phd 2026 Answer Key']
+2026-08-17 04:49:52,838 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-17 04:49:57,258 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-08-17 04:49:57,259 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-08-17 04:49:57,259 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-17 04:50:06,951 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-08-17 04:50:06,952 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-08-17 04:50:06,952 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-17 04:50:23,041 [INFO] [SarkariResult] [Answer Key] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-17 04:50:25,390 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-17/Answer Key/
+2026-08-17 04:50:25,676 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-17 04:50:25,677 [INFO] ✅ [SarkariResult] [Answer Key] 1 naye posts saved -> data/2026-08-17/Answer Key
+2026-08-17 04:50:32,237 [ERROR] Groq JSON parse failed: Invalid control character at: line 6 column 88 (char 330)
+2026-08-17 04:50:32,238 [INFO] Formatted via: template — NTA ICAR AIEEA PG and Phd 2026 Answer Key
+2026-08-17 04:50:32,707 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 04:50:32,707 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 04:50:39,892 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 04:50:39,892 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 04:50:46,348 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 04:50:50,349 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-17 04:50:50,350 [INFO] 📝 [Answer Key] Format+Publish: 0/1 drafts saved. Failed: ['NTA ICAR AIEEA PG and Phd 2026 Answer Key']
+2026-08-17 04:50:50,350 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-17 04:50:52,070 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-08-17 04:50:52,070 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-08-17 04:50:52,070 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-17 04:50:55,361 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-17 04:50:55,361 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-17 04:50:55,361 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-17 04:50:57,393 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-17 04:50:57,393 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-17 04:50:57,393 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-17 04:51:00,301 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-08-17 04:51:00,301 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-08-17 04:51:00,301 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-17 04:51:02,753 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-17 04:51:02,753 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-17 04:51:02,753 [INFO] ============================================================
+2026-08-17 04:51:02,753 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-17 04:51:02,753 [INFO] ============================================================
+

@@ -22890,3 +22890,72 @@
 2026-08-17 07:00:34,844 [INFO] ✅ [run_once] Check complete. any_new_post=True
 2026-08-17 07:00:34,844 [INFO] ============================================================
 
+2026-08-17 07:53:58,889 [INFO] 
+============================================================
+2026-08-17 07:53:58,889 [INFO] 🔍 [run_once] Check started at 2026-08-17T07:53:58.889591Z
+2026-08-17 07:53:58,889 [INFO] ============================================================
+2026-08-17 07:53:58,889 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-17 07:54:02,327 [INFO] [SarkariResult] [Latest Job] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-17 07:54:04,963 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-17/Latest Job/
+2026-08-17 07:54:05,496 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-17 07:54:05,496 [INFO] ✅ [SarkariResult] [Latest Job] 1 naye posts saved -> data/2026-08-17/Latest Job
+2026-08-17 07:54:10,627 [INFO] Formatted via: groq — NTA ICAR AIEEA PG and PhD Online Form 2026 | Apply Now
+2026-08-17 07:54:11,436 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 07:54:11,436 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:54:18,541 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:54:18,541 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:54:25,623 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:54:29,702 [WARNING] Groq key #1 failed [429], next key try karo...
+2026-08-17 07:54:36,363 [ERROR] Groq JSON parse failed: Invalid control character at: line 8 column 15 (char 565)
+2026-08-17 07:54:36,364 [INFO] Formatted via: template — Rajasthan RSSB Junior Engineer Recruitment 2026 Apply Online for 874 Post
+2026-08-17 07:54:37,436 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:54:37,436 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:54:44,530 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:54:44,530 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:54:51,730 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 07:55:01,662 [INFO] Formatted via: groq — UPSSSC Veterinary Pharmacist Online Form 2026 | Government Job in India | Apply Now
+2026-08-17 07:55:02,939 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:55:02,940 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:55:10,088 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:55:10,088 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:55:17,167 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 07:55:21,168 [INFO] 📊 Format+Publish summary: 3/3 formatted, 0/3 published as draft.
+2026-08-17 07:55:21,168 [INFO] 📝 [Latest Job] Format+Publish: 0/3 drafts saved. Failed: ['NTA ICAR AIEEA PG and Phd 2026 Answer Key', 'Rajasthan RSSB Junior Engineer Recruitment 2026 Apply Online for 874 Post', 'UPSSSC Veterinary Pharmacist Main Examination 2026 Apply Online for 1308 Post']
+2026-08-17 07:55:21,168 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-17 07:55:32,651 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-08-17 07:55:32,652 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-08-17 07:55:32,652 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-17 07:55:39,130 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-08-17 07:55:39,132 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-08-17 07:55:39,132 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-17 07:55:46,845 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-08-17 07:55:46,845 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-08-17 07:55:46,845 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-17 07:55:50,630 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-08-17 07:55:50,630 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-08-17 07:55:50,630 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-17 07:55:54,127 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-08-17 07:55:54,127 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-08-17 07:55:54,127 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-17 07:55:57,474 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-17 07:55:57,474 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-17 07:55:57,474 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-17 07:56:00,316 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-17 07:56:03,686 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-17/Outsourcing Offline Jobs/
+2026-08-17 07:56:04,164 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-17 07:56:04,165 [INFO] ✅ [SarkariResult] [Outsourcing / Offline Jobs] 1 naye posts saved -> data/2026-08-17/Outsourcing Offline Jobs
+2026-08-17 07:56:09,804 [INFO] Formatted via: groq — UP Sewayojan Vibhag MTS Recruitment 2026 Government Jobs in Uttar Pradesh Apply Now
+2026-08-17 07:56:10,889 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:56:10,889 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:56:17,536 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-08-17 07:56:17,536 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-17 07:56:24,591 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-17 07:56:28,592 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-17 07:56:28,593 [INFO] 📝 [Outsourcing / Offline Jobs] Format+Publish: 0/1 drafts saved. Failed: ['UP Sewayojan Vibhag Recruitment 2026 Multi Tasking Staff MTS Apply Online for 45 Post']
+2026-08-17 07:56:28,593 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-17 07:56:30,586 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-17 07:56:30,586 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-17 07:56:30,586 [INFO] ============================================================
+2026-08-17 07:56:30,586 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-17 07:56:30,586 [INFO] ============================================================
+

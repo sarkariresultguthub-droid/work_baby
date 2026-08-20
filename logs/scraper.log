@@ -26060,3 +26060,77 @@
 2026-08-20 04:37:40,631 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-08-20 04:37:40,631 [INFO] ============================================================
 
+2026-08-20 05:30:39,015 [INFO] 
+============================================================
+2026-08-20 05:30:39,015 [INFO] 🔍 [run_once] Check started at 2026-08-20T05:30:39.015984Z
+2026-08-20 05:30:39,016 [INFO] ============================================================
+2026-08-20 05:30:39,016 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-08-20 05:30:44,212 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-08-20 05:30:44,213 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-08-20 05:30:44,213 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-08-20 05:30:51,295 [INFO] [SarkariResult] [Admit Card] No new post. Skipping.
+2026-08-20 05:30:51,296 [INFO] ⏭️  [SarkariResult] [Admit Card] No new post.
+2026-08-20 05:30:51,296 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-08-20 05:30:56,197 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-08-20 05:30:56,198 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-08-20 05:30:56,199 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-08-20 05:30:59,085 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-08-20 05:30:59,085 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-08-20 05:30:59,086 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-08-20 05:31:07,366 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-08-20 05:31:07,366 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-08-20 05:31:07,366 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-08-20 05:31:09,759 [INFO] [SarkariResult] [Admission] ✅ 1 NAYA post mila! Full data fetch kar raha hun...
+2026-08-20 05:31:12,927 [INFO] [SarkariResult] 1 posts saved -> data/2026-08-20/Admission/
+2026-08-20 05:31:13,345 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-08-20 05:31:13,346 [INFO] ✅ [SarkariResult] [Admission] 1 naye posts saved -> data/2026-08-20/Admission
+2026-08-20 05:31:13,453 [WARNING] Groq key #1 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:13,546 [WARNING] Groq key #2 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:13,646 [WARNING] Groq key #3 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:13,744 [WARNING] Groq key #4 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:13,827 [WARNING] Groq key #5 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:13,914 [WARNING] Groq key #6 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:13,991 [WARNING] Groq key #7 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:14,074 [WARNING] Groq key #8 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:14,171 [WARNING] Groq key #9 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:14,252 [WARNING] Groq key #10 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:14,333 [WARNING] Groq key #11 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:14,417 [WARNING] Groq key #12 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:14,497 [WARNING] Groq key #13 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:14,574 [WARNING] Groq key #14 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-08-20 05:31:14,574 [ERROR] Saari Groq keys fail ho gayin — template fallback use ho raha hai.
+2026-08-20 05:31:14,575 [INFO] Formatted via: template — IIT Kharagpur JAM Admission 2027 Apply Online
+2026-08-20 05:31:15,774 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-20 05:31:15,774 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-20 05:31:22,972 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-20 05:31:22,972 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-08-20 05:31:30,177 [ERROR] ❌ Publish failed [405]: {"success":false,"error":"POST required"}
+2026-08-20 05:31:34,178 [INFO] 📊 Format+Publish summary: 1/1 formatted, 0/1 published as draft.
+2026-08-20 05:31:34,178 [INFO] 📝 [Admission] Format+Publish: 0/1 drafts saved. Failed: ['IIT Kharagpur JAM Admission 2027 Apply Online']
+2026-08-20 05:31:34,178 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-08-20 05:31:35,976 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-08-20 05:31:35,976 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-08-20 05:31:35,976 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-08-20 05:31:38,438 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-08-20 05:31:38,439 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-08-20 05:31:38,439 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-08-20 05:31:39,831 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-08-20 05:31:39,831 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-08-20 05:31:39,831 [INFO] ============================================================
+2026-08-20 05:31:39,831 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-08-20 05:31:39,831 [INFO] ============================================================
+

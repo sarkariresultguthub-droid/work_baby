@@ -1,21 +1,16 @@
 {
   "repo": "sarkariresultguthub-droid/work_baby",
-  "generated_at_utc": "2026-09-13T23:06:53.660678+00:00",
-  "date": "2026-09-13",
+  "generated_at_utc": "2026-09-14T00:58:30.210552+00:00",
+  "date": "2026-09-14",
   "runs": {
-    "total_runs_today": 6,
-    "success": 5,
+    "total_runs_today": 1,
+    "success": 0,
     "failed": 0,
     "other": 1,
     "run_times_utc": [
-      "2026-09-13T03:33:25Z",
-      "2026-09-13T09:05:31Z",
-      "2026-09-13T14:05:52Z",
-      "2026-09-13T17:56:14Z",
-      "2026-09-13T20:31:20Z",
-      "2026-09-13T22:55:30Z"
+      "2026-09-14T00:48:04Z"
     ],
-    "last_run_utc": "2026-09-13T22:55:30Z"
+    "last_run_utc": "2026-09-14T00:48:04Z"
   },
   "scraped": {
     "total_files": 0,

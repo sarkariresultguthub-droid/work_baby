@@ -1,25 +1,27 @@
 {
   "repo": "sarkariresultguthub-droid/work_baby",
-  "generated_at_utc": "2026-09-24T13:20:43.725642+00:00",
+  "generated_at_utc": "2026-09-24T18:17:26.004488+00:00",
   "date": "2026-09-24",
   "runs": {
-    "total_runs_today": 3,
-    "success": 2,
+    "total_runs_today": 4,
+    "success": 3,
     "failed": 0,
     "other": 1,
     "run_times_utc": [
       "2026-09-24T01:08:38Z",
       "2026-09-24T07:17:35Z",
-      "2026-09-24T13:17:37Z"
+      "2026-09-24T13:17:37Z",
+      "2026-09-24T18:15:06Z"
     ],
-    "last_run_utc": "2026-09-24T13:17:37Z"
+    "last_run_utc": "2026-09-24T18:15:06Z"
   },
   "scraped": {
-    "total_files": 5,
+    "total_files": 8,
     "by_category": {
       "Admit Card": 2,
       "Certificate": 1,
-      "Outsourcing Offline Jobs": 1,
+      "Latest Job": 2,
+      "Outsourcing Offline Jobs": 2,
       "Results": 1
     }
   }

@@ -68597,3 +68597,182 @@
 2026-10-01 08:24:40,205 [INFO] ✅ [run_once] Check complete. any_new_post=False
 2026-10-01 08:24:40,205 [INFO] ============================================================
 
+2026-10-01 16:02:17,590 [INFO] 
+============================================================
+2026-10-01 16:02:17,590 [INFO] 🔍 [run_once] Check started at 2026-10-01T16:02:17.590798Z
+2026-10-01 16:02:17,590 [INFO] ============================================================
+2026-10-01 16:02:17,590 [INFO] [SarkariResult] [Latest Job] Checking https://www.sarkariresult.com/latestjob/ ...
+2026-10-01 16:02:22,056 [INFO] [SarkariResult] [Latest Job] No new post. Skipping.
+2026-10-01 16:02:22,058 [INFO] ⏭️  [SarkariResult] [Latest Job] No new post.
+2026-10-01 16:02:22,058 [INFO] [SarkariResult] [Admit Card] Checking https://www.sarkariresult.com/admitcard/ ...
+2026-10-01 16:02:28,911 [INFO] [SarkariResult] [Admit Card] ✅ 4 NAYA post mila! Full data fetch kar raha hun...
+2026-10-01 16:02:47,704 [INFO] [SarkariResult] 4 posts saved -> data/2026-10-01/Admit Card/
+2026-10-01 16:02:48,080 [ERROR] Telegram error: 404 — {"ok":false,"error_code":404,"description":"Not Found"}
+2026-10-01 16:02:48,081 [INFO] ✅ [SarkariResult] [Admit Card] 4 naye posts saved -> data/2026-10-01/Admit Card
+2026-10-01 16:02:48,221 [WARNING] Groq key #1 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:48,300 [WARNING] Groq key #2 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:48,371 [WARNING] Groq key #3 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:48,440 [WARNING] Groq key #4 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:48,540 [WARNING] Groq key #5 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:48,619 [WARNING] Groq key #6 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:48,749 [WARNING] Groq key #7 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:48,834 [WARNING] Groq key #8 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:48,908 [WARNING] Groq key #9 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:48,975 [WARNING] Groq key #10 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:49,065 [WARNING] Groq key #11 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:49,235 [WARNING] Groq key #12 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:49,313 [WARNING] Groq key #13 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:49,471 [WARNING] Groq key #14 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:02:49,472 [ERROR] Saari Groq keys fail ho gayin — template fallback use ho raha hai.
+2026-10-01 16:02:49,473 [INFO] Formatted via: template — IBPS Clerk CRP XVI 16th Recruitment 2026 Admit Card
+2026-10-01 16:02:50,045 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:02:50,045 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-10-01 16:02:56,612 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:02:56,613 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-10-01 16:03:03,448 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:03:07,543 [WARNING] Groq key #1 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:07,671 [WARNING] Groq key #2 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:07,783 [WARNING] Groq key #3 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:07,867 [WARNING] Groq key #4 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:07,941 [WARNING] Groq key #5 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,023 [WARNING] Groq key #6 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,119 [WARNING] Groq key #7 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,210 [WARNING] Groq key #8 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,299 [WARNING] Groq key #9 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,385 [WARNING] Groq key #10 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,511 [WARNING] Groq key #11 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,600 [WARNING] Groq key #12 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,686 [WARNING] Groq key #13 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,755 [WARNING] Groq key #14 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:08,755 [ERROR] Saari Groq keys fail ho gayin — template fallback use ho raha hai.
+2026-10-01 16:03:08,756 [INFO] Formatted via: template — SSC Combined Higher Secondary (10+2) Examination 2026 : Apply Online for 2536 Post
+2026-10-01 16:03:09,309 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:03:09,309 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-10-01 16:03:15,836 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:03:15,836 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-10-01 16:03:22,372 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:03:26,439 [WARNING] Groq key #1 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:26,535 [WARNING] Groq key #2 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:26,642 [WARNING] Groq key #3 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:26,710 [WARNING] Groq key #4 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:26,773 [WARNING] Groq key #5 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:26,851 [WARNING] Groq key #6 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:26,919 [WARNING] Groq key #7 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:26,992 [WARNING] Groq key #8 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:27,086 [WARNING] Groq key #9 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:27,158 [WARNING] Groq key #10 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:27,238 [WARNING] Groq key #11 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:27,376 [WARNING] Groq key #12 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:27,455 [WARNING] Groq key #13 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:27,847 [WARNING] Groq key #14 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:27,847 [ERROR] Saari Groq keys fail ho gayin — template fallback use ho raha hai.
+2026-10-01 16:03:27,848 [INFO] Formatted via: template — SSC Junior Engineer JE Recruitment 2026 Exam Date for 1748 Post
+2026-10-01 16:03:28,402 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:03:28,402 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-10-01 16:03:34,967 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:03:34,967 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-10-01 16:03:41,523 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:03:45,614 [WARNING] Groq key #1 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:45,711 [WARNING] Groq key #2 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:45,824 [WARNING] Groq key #3 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:45,910 [WARNING] Groq key #4 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:46,235 [WARNING] Groq key #5 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:46,331 [WARNING] Groq key #6 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:46,407 [WARNING] Groq key #7 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:46,477 [WARNING] Groq key #8 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:46,564 [WARNING] Groq key #9 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:46,665 [WARNING] Groq key #10 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:46,765 [WARNING] Groq key #11 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:46,867 [WARNING] Groq key #12 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:46,933 [WARNING] Groq key #13 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:47,002 [WARNING] Groq key #14 unexpected [404]: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+2026-10-01 16:03:47,003 [ERROR] Saari Groq keys fail ho gayin — template fallback use ho raha hai.
+2026-10-01 16:03:47,004 [INFO] Formatted via: template — SSC Sub-Inspector in Delhi Police and Central Armed Police Forces Exam CPO SI 2026 : CBE Exam Date for 1871 Post
+2026-10-01 16:03:47,981 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:03:47,981 [WARNING] Retry 1/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-10-01 16:03:54,622 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:03:54,622 [WARNING] Retry 2/2 — 6 sec ruk raha hun (WAF cool-down)...
+2026-10-01 16:04:01,181 [ERROR] ❌ Publish failed [401]: {"success":false,"error":"Unauthorized"}
+2026-10-01 16:04:05,182 [INFO] 📊 Format+Publish summary: 4/4 formatted, 0/4 published as draft.
+2026-10-01 16:04:05,183 [INFO] 📝 [Admit Card] Format+Publish: 0/4 drafts saved. Failed: ['IBPS Clerk CRP XVI 16th Recruitment 2026 Admit Card', 'SSC Combined Higher Secondary (10+2) Examination 2026 : Apply Online for 2536 Post', 'SSC Junior Engineer JE Recruitment 2026 Exam Date for 1748 Post', 'SSC Sub-Inspector in Delhi Police and Central Armed Police Forces Exam CPO SI 2026 : CBE Exam Date for 1871 Post']
+2026-10-01 16:04:05,183 [INFO] [SarkariResult] [Results] Checking https://www.sarkariresult.com/result/ ...
+2026-10-01 16:04:09,695 [INFO] [SarkariResult] [Results] No new post. Skipping.
+2026-10-01 16:04:09,697 [INFO] ⏭️  [SarkariResult] [Results] No new post.
+2026-10-01 16:04:09,697 [INFO] [SarkariResult] [Answer Key] Checking https://www.sarkariresult.com/answerkey/ ...
+2026-10-01 16:04:12,328 [INFO] [SarkariResult] [Answer Key] No new post. Skipping.
+2026-10-01 16:04:12,329 [INFO] ⏭️  [SarkariResult] [Answer Key] No new post.
+2026-10-01 16:04:12,329 [INFO] [SarkariResult] [Syllabus] Checking https://www.sarkariresult.com/syllabus/ ...
+2026-10-01 16:04:17,647 [INFO] [SarkariResult] [Syllabus] No new post. Skipping.
+2026-10-01 16:04:17,647 [INFO] ⏭️  [SarkariResult] [Syllabus] No new post.
+2026-10-01 16:04:17,647 [INFO] [SarkariResult] [Admission] Checking https://www.sarkariresult.com/admission/ ...
+2026-10-01 16:04:20,027 [INFO] [SarkariResult] [Admission] No new post. Skipping.
+2026-10-01 16:04:20,028 [INFO] ⏭️  [SarkariResult] [Admission] No new post.
+2026-10-01 16:04:20,028 [INFO] [SarkariResult] [Certificate] Checking https://www.sarkariresult.com/certificate/ ...
+2026-10-01 16:04:25,089 [INFO] [SarkariResult] [Certificate] No new post. Skipping.
+2026-10-01 16:04:25,090 [INFO] ⏭️  [SarkariResult] [Certificate] No new post.
+2026-10-01 16:04:25,090 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] Checking https://www.sarkariresult.com/outsourcing/ ...
+2026-10-01 16:04:29,707 [INFO] [SarkariResult] [Outsourcing / Offline Jobs] No new post. Skipping.
+2026-10-01 16:04:29,707 [INFO] ⏭️  [SarkariResult] [Outsourcing / Offline Jobs] No new post.
+2026-10-01 16:04:29,707 [INFO] [SarkariResult] [Important] Checking https://www.sarkariresult.com/important/ ...
+2026-10-01 16:04:32,885 [INFO] [SarkariResult] [Important] No new post. Skipping.
+2026-10-01 16:04:32,885 [INFO] ⏭️  [SarkariResult] [Important] No new post.
+2026-10-01 16:04:32,885 [INFO] ============================================================
+2026-10-01 16:04:32,885 [INFO] ✅ [run_once] Check complete. any_new_post=True
+2026-10-01 16:04:32,886 [INFO] ============================================================
+

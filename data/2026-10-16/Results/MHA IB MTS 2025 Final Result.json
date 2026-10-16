@@ -1,0 +1,27 @@
+{
+  "source_site": "SarkariResult",
+  "source_url": "https://www.sarkariresult.com/result/",
+  "category": "government_jobs",
+  "scraped_at": "2026-10-16T11:03:39.501967Z",
+  "title": "MHA IB MTS 2025 Final Result",
+  "link": "https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf",
+  "date": null,
+  "description": null,
+  "raw_text": "MHA IB MTS 2025 Final Result",
+  "all_links": [
+    {
+      "text": "MHA IB MTS 2025 Final Result",
+      "url": "https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf"
+    }
+  ],
+  "all_images": [],
+  "full_title": null,
+  "full_text": null,
+  "tables": [],
+  "important_dates": null,
+  "important_links": [],
+  "fetch_error": "Link is a PDF — skipping HTML parse",
+  "site_name": "SarkariResult",
+  "category_label": "Results",
+  "scraped_date": "2026-10-16"
+}

@@ -1,0 +1,217 @@
+{
+  "source_site": "SarkariResult",
+  "source_url": "https://www.sarkariresult.com/result/",
+  "category": "government_jobs",
+  "scraped_at": "2026-11-16T15:11:59.373782Z",
+  "title": "DRDO CEPTAM 11 Final Result",
+  "link": "https://drdo.res.in/ceptam_noticeboard/drentrystatus/",
+  "date": null,
+  "description": null,
+  "raw_text": "DRDO CEPTAM 11 Final Result",
+  "all_links": [
+    {
+      "text": "DRDO CEPTAM 11 Final Result",
+      "url": "https://drdo.res.in/ceptam_noticeboard/drentrystatus/"
+    }
+  ],
+  "all_images": [],
+  "full_title": null,
+  "full_text": "\"Committed to Develop Quality Manpower\"\nकार्मिक प्रतिभा प्रबंधन केंद्र (सेप्टेम)\nCENTRE FOR PERSONNEL TALENT MANAGEMENT (CEPTAM)\n(scrutinize actualize recognize human potential)\nरक्षा अनुसंधान तथा विकास संगठन (डी आर डी ओ)\nDefence Research & Development Organisation (DRDO)\nरक्षा मंत्रालय, भारत सरकार\nMinistry of Defence, Govt. of India\nStatus of CEPTAM Recruitment Cycles\nCEPTAM-11 [STA-B]\nCEPTAM-11 [TECH-A]\nNotices",
+  "tables": [
+    [
+      [
+        "PostCode & Subject",
+        "Stage",
+        "Status"
+      ],
+      [
+        "0101 - Automobile Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0102 - Chemical Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0103 - Chemistry",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0104 - Civil Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0105 - Computer Science and Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0106 - Electrical and Electronics Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0107 - Electrical Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0108 - Electronics Engineering or Electronics and Communication Engineering  or Electronics and Telecommunication Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0109 - Geology",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0110 - Instrumentation Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0111 - Instrumentation and Electronics Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0112 - Library Science",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0113 - Mathematics",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0114 - Mechanical Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0115 - Metallurgical Engineering",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0116 - Physics",
+        "Final Result Status",
+        ""
+      ],
+      [
+        "0117 - Psychology",
+        "Final Result Status",
+        ""
+      ]
+    ],
+    [
+      [
+        "PostCode & Subject",
+        "Stage",
+        "Status"
+      ],
+      [
+        "0201 - Book Binder",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0202 - Carpenter",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0204 - COPA",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0205 - Draughtsman (Mechanical)",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0206 - Electrician",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0207 - Electronics",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0208 - Fitter",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0209 - Machinist",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0210 - Mechanic (Motor Vehicle)",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0211 - Optical Worker",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0212 - Photographer",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0213 - Sheet Metal Worker",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0214 - Surveyor",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0215 - Turner",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ],
+      [
+        "0216 - Welder",
+        "Tier-II Result Status cum Trade Test Date and City Intimation",
+        ""
+      ]
+    ],
+    [
+      [
+        "Message",
+        "Attachment"
+      ],
+      [
+        "CEPTAM-11 Latest Updates",
+        "Link"
+      ]
+    ]
+  ],
+  "important_dates": null,
+  "important_links": [
+    {
+      "text": "Link",
+      "url": "https://drdo.gov.in/drdo/en/offerings/vacancies/ceptam-11-advertisement-post-sta-b-and-technician"
+    }
+  ],
+  "fetch_error": null,
+  "site_name": "SarkariResult",
+  "category_label": "Results",
+  "scraped_date": "2026-11-16"
+}

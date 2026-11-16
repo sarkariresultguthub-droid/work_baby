@@ -1,0 +1,27 @@
+{
+  "source_site": "SarkariResult",
+  "source_url": "https://www.sarkariresult.com/result/",
+  "category": "government_jobs",
+  "scraped_at": "2026-11-16T15:11:59.374439Z",
+  "title": "CBSE Board Class 10th, 12th Date Sheet 2027",
+  "link": "https://doc.sarkariresults.org.in/Datesheet_ClassX%20_XII_2027_Main_06112026.pdf",
+  "date": null,
+  "description": null,
+  "raw_text": "CBSE Board Class 10th, 12th Date Sheet 2027",
+  "all_links": [
+    {
+      "text": "CBSE Board Class 10th, 12th Date Sheet 2027",
+      "url": "https://doc.sarkariresults.org.in/Datesheet_ClassX%20_XII_2027_Main_06112026.pdf"
+    }
+  ],
+  "all_images": [],
+  "full_title": null,
+  "full_text": null,
+  "tables": [],
+  "important_dates": null,
+  "important_links": [],
+  "fetch_error": "Link is a PDF — skipping HTML parse",
+  "site_name": "SarkariResult",
+  "category_label": "Results",
+  "scraped_date": "2026-11-16"
+}

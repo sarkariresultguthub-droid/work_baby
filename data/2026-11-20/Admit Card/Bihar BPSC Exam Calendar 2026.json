@@ -1,0 +1,27 @@
+{
+  "source_site": "SarkariResult",
+  "source_url": "https://www.sarkariresult.com/admitcard/",
+  "category": "government_jobs",
+  "scraped_at": "2026-11-20T15:18:39.331957Z",
+  "title": "Bihar BPSC Exam Calendar 2026",
+  "link": "https://doc.sarkariresults.org.in/bpsc0101-merged.pdf",
+  "date": null,
+  "description": null,
+  "raw_text": "Bihar BPSC Exam Calendar 2026",
+  "all_links": [
+    {
+      "text": "Bihar BPSC Exam Calendar 2026",
+      "url": "https://doc.sarkariresults.org.in/bpsc0101-merged.pdf"
+    }
+  ],
+  "all_images": [],
+  "full_title": null,
+  "full_text": null,
+  "tables": [],
+  "important_dates": null,
+  "important_links": [],
+  "fetch_error": "Link is a PDF — skipping HTML parse",
+  "site_name": "SarkariResult",
+  "category_label": "Admit Card",
+  "scraped_date": "2026-11-20"
+}
